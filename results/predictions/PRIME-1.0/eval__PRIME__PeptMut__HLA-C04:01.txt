@@ -1,0 +1,25 @@
+####################
+# Output from PRIME (v1.0)
+# Alleles: HLA-C04:01
+# Affinity predictions: MixMHCpred (/Users/annieborch/Documents/programs/MixMHCpred-master/MixMHCpred)
+# PRIME is freely available for academic users.
+# Private companies should contact eauffarth@licr.org at the Ludwig Institute for Cancer Research Ltd for commercial licenses.
+#
+# To cite PRIME, please refer to:
+# Schmidt et al. Prediction of neo-epitope immunogenicity reveals TCR recognition determinants and immunoediting in human cancer, BioRxiv (2020).
+#
+####################
+Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_HLA-C04:01	Score_HLA-C04:01	%RankBinding_HLA-C04:01
+HIVDDWLSL	100.00	0.000000	15.00	HLA-C04:01	100.00	0.000000	15.00
+LINNIIIYF	0.20	0.186707	0.90	HLA-C04:01	0.20	0.186707	0.90
+FALLPLNSL	2.00	0.168131	2.00	HLA-C04:01	2.00	0.168131	2.00
+QYREKVETEL	40.00	0.149149	3.00	HLA-C04:01	40.00	0.149149	3.00
+RVLWDEVVARV	100.00	0.000000	78.00	HLA-C04:01	100.00	0.000000	78.00
+FHRDHSGTL	10.00	0.157494	3.00	HLA-C04:01	10.00	0.157494	3.00
+YDNLPELYL	3.00	0.165135	3.00	HLA-C04:01	3.00	0.165135	3.00
+FAGDDAPWAV	100.00	0.000000	26.00	HLA-C04:01	100.00	0.000000	26.00
+IEEFKGQYF	2.00	0.169839	0.80	HLA-C04:01	2.00	0.169839	0.80
+NSDNSPSQL	0.40	0.179756	0.04	HLA-C04:01	0.40	0.179756	0.04
+GFAGDDAPWAV	100.00	0.000000	12.00	HLA-C04:01	100.00	0.000000	12.00
+AGDDAPWAVF	0.40	0.181116	0.80	HLA-C04:01	0.40	0.181116	0.80
+GDDAPWAVF	0.80	0.174567	3.00	HLA-C04:01	0.80	0.174567	3.00

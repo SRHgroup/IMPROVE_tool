@@ -1,0 +1,20 @@
+####################
+# Output from PRIME (v1.0)
+# Alleles: HLA-B35:01
+# Affinity predictions: MixMHCpred (/Users/annieborch/Documents/programs/MixMHCpred-master/MixMHCpred)
+# PRIME is freely available for academic users.
+# Private companies should contact eauffarth@licr.org at the Ludwig Institute for Cancer Research Ltd for commercial licenses.
+#
+# To cite PRIME, please refer to:
+# Schmidt et al. Prediction of neo-epitope immunogenicity reveals TCR recognition determinants and immunoediting in human cancer, BioRxiv (2020).
+#
+####################
+Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_HLA-B35:01	Score_HLA-B35:01	%RankBinding_HLA-B35:01
+HIVDDWLSL	0.30	0.181704	0.90	HLA-B35:01	0.30	0.181704	0.90
+LINNIIIYF	0.04	0.197810	0.20	HLA-B35:01	0.04	0.197810	0.20
+EAIKNAGNL	100.00	0.000000	8.00	HLA-B35:01	100.00	0.000000	8.00
+FALLPLNSL	0.30	0.184005	0.20	HLA-B35:01	0.30	0.184005	0.20
+NPNLKKNVL	0.50	0.177585	0.30	HLA-B35:01	0.50	0.177585	0.30
+APWAVFPSI	0.07	0.193191	0.06	HLA-B35:01	0.07	0.193191	0.06
+DTLINNIIIY	0.80	0.173800	4.00	HLA-B35:01	0.80	0.173800	4.00
+IIYFASSVF	3.00	0.164897	3.00	HLA-B35:01	3.00	0.164897	3.00

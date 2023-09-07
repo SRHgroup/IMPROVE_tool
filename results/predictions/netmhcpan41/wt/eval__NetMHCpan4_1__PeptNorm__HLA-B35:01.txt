@@ -1,0 +1,63 @@
+# /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/bin/netMHCpan -f ./results/predictions/netmhcpan41/wt/tempPept.txt -p -BA -a HLA-B35:01
+# Thu Sep  7 08:59:06 2023
+# User: annieborch
+# PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_tool
+# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
+# -f       ./results/predictions/netmhcpan41/wt/tempPept.txt File name with input
+# -p       1                    Use peptide input
+# -BA      1                    Include Binding affinity prediction
+# -a       HLA-B35:01           MHC allele
+# Command line parameters set to:
+#	[-rdir filename]     /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/data/MHC_pseudo.dat File with MHC pseudo sequences
+#	[-hlaseq filename]                        File with full length MHC sequences
+#	[-a line]            HLA-B35:01           MHC allele
+#	[-f filename]        ./results/predictions/netmhcpan41/wt/tempPept.txt File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 1                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output (%rank) [<0 print all]
+#	[-thrfmt filename]   /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Include Binding affinity prediction
+
+# NetMHCpan version 4.1b
+
+# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanWaZAcS
+# Input is in PEPTIDE format
+
+# Make both EL and BA predictions
+
+HLA-B35:01 : Distance to training data  0.000 (using nearest neighbor HLA-B35:01)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+---------------------------------------------------------------------------------------------------------------------------
+ Pos         MHC        Peptide      Core Of Gp Gl Ip Il        Icore        Identity  Score_EL %Rank_EL Score_BA %Rank_BA  Aff(nM) BindLevel
+---------------------------------------------------------------------------------------------------------------------------
+   1 HLA-B*35:01      QIVDDWLSL QIVDDWLSL  0  0  0  0  0    QIVDDWLSL         PEPLIST 0.0508080    2.373 0.243963    2.536  3569.40
+   1 HLA-B*35:01      LINNILIYF LINNILIYF  0  0  0  0  0    LINNILIYF         PEPLIST 0.0412170    2.651 0.290064    1.817  2167.54
+   1 HLA-B*35:01      EAIKNAGNP EAIKNAGNP  0  0  0  0  0    EAIKNAGNP         PEPLIST 0.0005570   17.233 0.045079   26.365 30700.48
+   1 HLA-B*35:01      FALLPLNIL FALLPLNIL  0  0  0  0  0    FALLPLNIL         PEPLIST 0.1005090    1.573 0.307912    1.600  1786.90 <= WB
+   1 HLA-B*35:01      NPNLRKNVL NPNLRKNVL  0  0  0  0  0    NPNLRKNVL         PEPLIST 0.2447480    0.793 0.235778    2.709  3899.93 <= WB
+   1 HLA-B*35:01      APRAVFPSI APRAVFPSI  0  0  0  0  0    APRAVFPSI         PEPLIST 0.0746000    1.874 0.192811    3.809  6208.07 <= WB
+   1 HLA-B*35:01     DTLINNILIY DTINNILIY  0  2  1  0  0   DTLINNILIY         PEPLIST 0.0574640    2.222 0.248414    2.455  3401.58
+   1 HLA-B*35:01      LIYFASSVF LIYFASSVF  0  0  0  0  0    LIYFASSVF         PEPLIST 0.2545760    0.768 0.608281    0.207    69.29 <= WB
+---------------------------------------------------------------------------------------------------------------------------
+
+Protein PEPLIST. Allele HLA-B*35:01. Number of high binders 0. Number of weak binders 4. Number of peptides 8
+
+-----------------------------------------------------------------------------------

@@ -1,0 +1,24 @@
+####################
+# Output from PRIME (v1.0)
+# Alleles: HLA-B44:02
+# Affinity predictions: MixMHCpred (/Users/annieborch/Documents/programs/MixMHCpred-master/MixMHCpred)
+# PRIME is freely available for academic users.
+# Private companies should contact eauffarth@licr.org at the Ludwig Institute for Cancer Research Ltd for commercial licenses.
+#
+# To cite PRIME, please refer to:
+# Schmidt et al. Prediction of neo-epitope immunogenicity reveals TCR recognition determinants and immunoediting in human cancer, BioRxiv (2020).
+#
+####################
+Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_HLA-B44:02	Score_HLA-B44:02	%RankBinding_HLA-B44:02
+EEQEEEGGSWG	4.00	0.162346	0.60	HLA-B44:02	4.00	0.162346	0.60
+NEEDSEDLF	0.60	0.173115	0.20	HLA-B44:02	0.60	0.173115	0.20
+SNEEDSEDLF	30.00	0.151719	3.00	HLA-B44:02	30.00	0.151719	3.00
+LKNNSGWRW	2.00	0.168960	2.00	HLA-B44:02	2.00	0.168960	2.00
+GEFQCSRKA	7.00	0.158731	0.50	HLA-B44:02	7.00	0.158731	0.50
+EEFKGQYFH	0.70	0.173013	0.50	HLA-B44:02	0.70	0.173013	0.50
+HRGEAEFARIM	100.00	0.000000	16.00	HLA-B44:02	100.00	0.000000	16.00
+DEEQEEEGGSW	8.00	0.157924	0.20	HLA-B44:02	8.00	0.157924	0.20
+TEEDSKECL	0.90	0.171150	0.10	HLA-B44:02	0.90	0.171150	0.10
+EQEEEGGSW	20.00	0.152862	0.60	HLA-B44:02	20.00	0.152862	0.60
+SDNSPSQLGF	20.00	0.155069	2.00	HLA-B44:02	20.00	0.155069	2.00
+GDDAPWAVF	100.00	0.000000	13.00	HLA-B44:02	100.00	0.000000	13.00
