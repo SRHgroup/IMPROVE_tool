@@ -1,0 +1,54 @@
+# Scripts
+# Annie Borch
+# Neoepitope project  
+# prediction 
+
+GENEREL NOTES:
+
+# scripts for Physichemeical parameter 
+/home/projects/SRHgroup/projects/Neoepitope_predictions/scripts/Feature_annie
+
+# scripts for netstab 
+
+# script to gather Icore 
+
+
+RUN PIPELINE
+# ----------------------------------------------------------------------------
+
+# scripts to make partiononing is as C2 : 
+# /home/projects/vaccine/people/cadunl/share/Annie
+
+Copy sorted data to partitioning folder:
+	$scp example_sorted_annie.txt annbor@ssh.computerome.dk:/home/projects/vaccine/people/cadunl/share/Annie/example_sorted_annie.txt
+
+$scp example_input_annie.txt annbor@ssh.computerome.dk:/home/projects/vaccine/people/cadunl/share/Annie/example_input_annie.txt
+
+Run $./do_partitions_annie.sh in this folder /home/projects/vaccine/people/cadunl/share/Annie
+
+
+then save c000, c001, c002 c003 c004 and f000, f001, f002, f003, f004 to project by: 
+	mv c0* partition_data
+	mv f0* partition_data
+Move partitioning data to local folder :
+	$scp -r annbor@ssh.computerome.dk:/home/projects/vaccine/people/cadunl/share/Annie/partition_data /Users/annieborch/Documents/github_local/data/partitioning_data
+
+Make nnalign data by run nn align prepare script in R local: /Users/annieborch/Documents/github_local/bin/R_script
+
+Open nnalign 2.1 not 2.0 webserver on HEALTH TEC not CBS: https://services.healthtech.dtu.dk/service.php?NNAlign-2.1
+
+Upload train and validation data and select "User-defined partitions" the rest is default. 
+
+Download file with results: 
+
+
+run python script with Jupiter notebook in this folder /Users/annieborch/Documents/github_local/bin/python_script
+	jupyter notebook neoepitope_clfs_assembling.ipynb
+
+Open 04_Paper_plot and change nnalign dataset  
+
+
+
+
+
+
