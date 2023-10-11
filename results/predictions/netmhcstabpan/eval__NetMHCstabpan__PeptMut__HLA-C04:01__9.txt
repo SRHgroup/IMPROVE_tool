@@ -1,7 +1,7 @@
 # /Users/annieborch/Documents/programs/netMHCstabpan-1.0/Darwin_x86_64/bin/netMHCstabpan -f ./results/predictions/netmhcstabpan/tempPept.txt -p -a HLA-C04:01 -affpred /Users/annieborch/Documents/programs/netMHCpan-4.1/netmhcpan
-# Thu Sep  7 08:59:08 2023
+# Wed Oct 11 12:10:31 2023
 # User: annieborch
-# PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_tool
+# PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
 # Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
 # -f       ./results/predictions/netmhcstabpan/tempPept.txt File name with input
 # -p       1                    Use peptide input
@@ -48,16 +48,12 @@ HLA-C04:01 : Distance to traning data  0.315 (using nearest neighbor HLA-B46:01)
 -----------------------------------------------------------------------------------------------------
  pos      HLA         peptide         Identity       Pred     Thalf(h) %Rank_Stab BindLevel
 -----------------------------------------------------------------------------------------------------
-    0  HLA-C*04:01    HIVDDWLSL         PEPLIST      0.023       0.18       8.00
-    0  HLA-C*04:01    LINNIIIYF         PEPLIST      0.023       0.18       8.00
-    0  HLA-C*04:01    FALLPLNSL         PEPLIST      0.083       0.28       1.00      <= WB
-    0  HLA-C*04:01    FHRDHSGTL         PEPLIST      0.045       0.22       3.50
-    0  HLA-C*04:01    YDNLPELYL         PEPLIST      0.002       0.11      39.00
-    0  HLA-C*04:01    IEEFKGQYF         PEPLIST      0.000       0.09      55.00
-    0  HLA-C*04:01    NSDNSPSQL         PEPLIST      0.003       0.12      28.00
-    0  HLA-C*04:01    GDDAPWAVF         PEPLIST      0.000       0.08      55.00
+    0  HLA-C*04:01    VFMRPFHEV         PEPLIST      0.063       0.25       1.70      <= WB
+    0  HLA-C*04:01    IFMDRGMIV         PEPLIST      0.099       0.30       0.60      <= WB
+    0  HLA-C*04:01    YLNLDDTVF         PEPLIST      0.017       0.17      11.00
+    0  HLA-C*04:01    LWDEVVARV         PEPLIST      0.022       0.18       8.50
 -----------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-C*04:01. Number of high binders 0. Number of weak binders 1. Number of peptides 8
+Protein PEPLIST. Allele HLA-C*04:01. Number of high binders 0. Number of weak binders 2. Number of peptides 4
 
 -----------------------------------------------------------------------------------------------------

@@ -1,0 +1,57 @@
+# /Users/annieborch/Documents/programs/netMHCstabpan-1.0/Darwin_x86_64/bin/netMHCstabpan -f ./results/predictions/netmhcstabpan/tempPept.txt -p -a HLA-A01:01 -affpred /Users/annieborch/Documents/programs/netMHCpan-4.1/netmhcpan
+# Wed Oct 11 12:10:33 2023
+# User: annieborch
+# PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
+# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
+# -f       ./results/predictions/netmhcstabpan/tempPept.txt File name with input
+# -p       1                    Use peptide input
+# -a       HLA-A01:01           HLA allele
+# -affpred /Users/annieborch/Documents/programs/netMHCpan-4.1/netmhcpan MHC affinity predictor
+# Command line parameters set to:
+#	[-rdir filename]     /Users/annieborch/Documents/programs/netMHCstabpan-1.0/Darwin_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /Users/annieborch/Documents/programs/netMHCstabpan-1.0/Darwin_x86_64/data/syn/synaps Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T/ Temporary directory (Default $$)
+#	[-hlapseudo filename] /Users/annieborch/Documents/programs/netMHCstabpan-1.0/Darwin_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
+#	[-hlaseq filename]                        File with full length HLA sequences
+#	[-a line]            HLA-A01:01           HLA allele
+#	[-f filename]        ./results/predictions/netmhcstabpan/tempPept.txt File name with input
+#	[-w]                 0                    w option for webface
+#	[-s int]             -1                   Sort output on descending [0] stability, [1] affinity, [2] combined, [-1] no sorting
+#	[-p]                 1                    Use peptide input
+#	[-rht float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          9                    Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCstabpan.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output
+#	[-thrfmt filename]   /Users/annieborch/Documents/programs/netMHCstabpan-1.0/Darwin_x86_64/data/threshold/%s.thr Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /Users/annieborch/Documents/programs/netMHCstabpan-1.0/Darwin_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-affpred filename]  /Users/annieborch/Documents/programs/netMHCpan-4.1/netmhcpan MHC affinity predictor
+#	[-waff float]        0.800000             Relative Weight on affinity
+#	[-ia]                0                    Include affinity predictions
+#	[-s1 int]            -1                   Sort option only used by www
+#	[-s2 int]            -1                   Sort option only used by www
+
+# NetMHCstabpan version 1.0
+
+# Input is in PEPTIDE format
+
+HLA-A01:01 : Distance to traning data  0.000 (using nearest neighbor HLA-A01:01)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+-----------------------------------------------------------------------------------------------------
+ pos      HLA         peptide         Identity       Pred     Thalf(h) %Rank_Stab BindLevel
+-----------------------------------------------------------------------------------------------------
+    0  HLA-A*01:01   QIDVSQFGSY         PEPLIST      0.489       0.97       0.50      <= SB
+    0  HLA-A*01:01   GTEPIIVDLF         PEPLIST      0.351       0.66       1.00      <= WB
+-----------------------------------------------------------------------------------------------------
+
+Protein PEPLIST. Allele HLA-A*01:01. Number of high binders 1. Number of weak binders 1. Number of peptides 2
+
+-----------------------------------------------------------------------------------------------------

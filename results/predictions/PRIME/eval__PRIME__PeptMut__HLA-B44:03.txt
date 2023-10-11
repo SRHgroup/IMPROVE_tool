@@ -1,0 +1,14 @@
+####################
+# Output from PRIME (v2.0)
+# Alleles: B4403
+# Affinity predictions: MixMHCpred (/Users/annieborch/Documents/programs/MixMHCpred-master/MixMHCpred)
+# Input file: /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool/results/predictions/PRIME/tempPept.txt
+#
+# PRIME is freely available for academic users.
+# Private companies should contact Nadette Bulgin (nbulgin@lcr.org) at the Ludwig Institute for Cancer Research Ltd for commercial licenses.
+# To cite PRIME2.0, please refer to:
+# Gfeller et al. Predictions of immunogenicity reveal potent SARS-Cov-2 CD8 T-cell epitopes, BioRxiv (2022).
+####################
+Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_B4403	Score_B4403	%RankBinding_B4403
+REEPGQLSPG	10.165	0.004068	5.627	B4403	10.165	0.004068	5.627
+MEQEEDWVR	4.242	0.009480	5.864	B4403	4.242	0.009480	5.864

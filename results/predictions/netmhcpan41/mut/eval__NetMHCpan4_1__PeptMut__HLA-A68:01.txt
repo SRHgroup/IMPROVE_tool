@@ -1,7 +1,7 @@
 # /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/bin/netMHCpan -f ./results/predictions/netmhcpan41/mut/tempPept.txt -p -BA -a HLA-A68:01
-# Thu Sep  7 08:59:04 2023
+# Wed Oct 11 12:10:17 2023
 # User: annieborch
-# PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_tool
+# PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
 # Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
 # -f       ./results/predictions/netmhcpan41/mut/tempPept.txt File name with input
 # -p       1                    Use peptide input
@@ -36,7 +36,7 @@
 
 # NetMHCpan version 4.1b
 
-# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanRYaQyp
+# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanNmdSzu
 # Input is in PEPTIDE format
 
 # Make both EL and BA predictions
@@ -48,36 +48,10 @@ HLA-A68:01 : Distance to training data  0.000 (using nearest neighbor HLA-A68:01
 ---------------------------------------------------------------------------------------------------------------------------
  Pos         MHC        Peptide      Core Of Gp Gl Ip Il        Icore        Identity  Score_EL %Rank_EL Score_BA %Rank_BA  Aff(nM) BindLevel
 ---------------------------------------------------------------------------------------------------------------------------
-   1 HLA-A*68:01     EYTQDYEQPR ETQDYEQPR  0  1  1  0  0   EYTQDYEQPR         PEPLIST 0.7640620    0.312 0.636903    0.618    50.84 <= SB
-   1 HLA-A*68:01      LAQKKGNTR LAQKKGNTR  0  0  0  0  0    LAQKKGNTR         PEPLIST 0.1649440    2.228 0.298835    4.623  1971.30
-   1 HLA-A*68:01    NSSCMGGMNQR NSMGGMNQR  0  2  2  0  0  NSSCMGGMNQR         PEPLIST 0.6818540    0.448 0.578471    0.956    95.66 <= SB
-   1 HLA-A*68:01      SCMGGMNQR SCMGGMNQR  0  0  0  0  0    SCMGGMNQR         PEPLIST 0.4530840    0.890 0.463385    1.913   332.31 <= WB
-   1 HLA-A*68:01     CTGTDFTNAK CTTDFTNAK  0  2  1  0  0   CTGTDFTNAK         PEPLIST 0.2964300    1.400 0.654498    0.529    42.02 <= WB
-   1 HLA-A*68:01    FTIPLSGYGGR FTIPLSGYR  0  8  2  0  0  FTIPLSGYGGR         PEPLIST 0.7245940    0.378 0.768377    0.156    12.26 <= SB
-   1 HLA-A*68:01     TIPLSGYGGR TIPLSGYGR  0  7  1  0  0   TIPLSGYGGR         PEPLIST 0.2957860    1.403 0.583471    0.927    90.63 <= WB
-   1 HLA-A*68:01      TNTAEILSR TNTAEILSR  0  0  0  0  0    TNTAEILSR         PEPLIST 0.2778150    1.481 0.395157    2.798   695.25 <= WB
-   1 HLA-A*68:01      EAFCWIGLK EAFCWIGLK  0  0  0  0  0    EAFCWIGLK         PEPLIST 0.5341890    0.714 0.789272    0.108     9.78 <= WB
-   1 HLA-A*68:01     VTNTAEILSR VTNTAILSR  0  5  1  0  0   VTNTAEILSR         PEPLIST 0.5043980    0.777 0.559162    1.076   117.89 <= WB
-   1 HLA-A*68:01      DAKNPNLKK DAKNPNLKK  0  0  0  0  0    DAKNPNLKK         PEPLIST 0.7012910    0.416 0.440678    2.183   424.85 <= SB
-   1 HLA-A*68:01      RASFNHFHR RASFNHFHR  0  0  0  0  0    RASFNHFHR         PEPLIST 0.3640170    1.147 0.614080    0.750    65.08 <= WB
-   1 HLA-A*68:01     DTLINNIIIY DTINNIIIY  0  2  1  0  0   DTLINNIIIY         PEPLIST 0.1558660    2.313 0.338958    3.751  1277.08
-   1 HLA-A*68:01    FIISPTSVQEK FIISPTQEK  0  6  2  0  0  FIISPTSVQEK         PEPLIST 0.5064090    0.773 0.509269    1.455   202.27 <= WB
-   1 HLA-A*68:01     IISPTSVQEK IISPTSVQK  0  8  1  0  0   IISPTSVQEK         PEPLIST 0.3485140    1.203 0.440517    2.185   425.59 <= WB
-   1 HLA-A*68:01      SVQEKADIR SVQEKADIR  0  0  0  0  0    SVQEKADIR         PEPLIST 0.5602690    0.661 0.478100    1.747   283.40 <= WB
-   1 HLA-A*68:01      TLINNIIIY TLINNIIIY  0  0  0  0  0    TLINNIIIY         PEPLIST 0.0810970    3.366 0.263261    5.605  2896.77
-   1 HLA-A*68:01     DSSFAEFLEK DSFAEFLEK  0  1  1  0  0   DSSFAEFLEK         PEPLIST 0.5259040    0.732 0.690457    0.390    28.48 <= WB
-   1 HLA-A*68:01      LSHSPHHQK LSHSPHHQK  0  0  0  0  0    LSHSPHHQK         PEPLIST 0.6267250    0.540 0.528337    1.293   164.56 <= WB
-   1 HLA-A*68:01      NSGEFQCSR NSGEFQCSR  0  0  0  0  0    NSGEFQCSR         PEPLIST 0.5201120    0.744 0.605751    0.797    71.21 <= WB
-   1 HLA-A*68:01     HLPGCISLNR HLPGISLNR  0  4  1  0  0   HLPGCISLNR         PEPLIST 0.3552660    1.178 0.574697    0.979    99.65 <= WB
-   1 HLA-A*68:01      VLWDEQVAR VLWDEQVAR  0  0  0  0  0    VLWDEQVAR         PEPLIST 0.3405060    1.233 0.426554    2.366   495.00 <= WB
-   1 HLA-A*68:01     RVLWDEQVAR RVWDEQVAR  0  2  1  0  0   RVLWDEQVAR         PEPLIST 0.3758570    1.104 0.421589    2.430   522.32 <= WB
-   1 HLA-A*68:01    MVSVDDRLIYK MVSDRLIYK  0  3  2  0  0  MVSVDDRLIYK         PEPLIST 0.4490230    0.899 0.629573    0.661    55.03 <= WB
-   1 HLA-A*68:01     DAGGSFLSYK DAGGFLSYK  0  4  1  0  0   DAGGSFLSYK         PEPLIST 0.5124870    0.760 0.656089    0.522    41.31 <= WB
-   1 HLA-A*68:01     FRASFNHFHR FASFNHFHR  0  1  1  0  0   FRASFNHFHR         PEPLIST 0.2597490    1.569 0.766186    0.161    12.55 <= WB
-   1 HLA-A*68:01     RVLWDEVVAR RVWDEVVAR  0  2  1  0  0   RVLWDEVVAR         PEPLIST 0.4556900    0.885 0.460636    1.940   342.34 <= WB
-   1 HLA-A*68:01     SVKVIHRDLK SVKVIHDLK  0  6  1  0  0   SVKVIHRDLK         PEPLIST 0.1412370    2.449 0.507353    1.472   206.51
+   1 HLA-A*68:01      VSYKTSCGR VSYKTSCGR  0  0  0  0  0    VSYKTSCGR         PEPLIST 0.3828160    1.083 0.589431    0.892    84.97 <= WB
+   1 HLA-A*68:01      ELNKIPTMR ELNKIPTMR  0  0  0  0  0    ELNKIPTMR         PEPLIST 0.8798290    0.146 0.677474    0.436    32.77 <= SB
 ---------------------------------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-A*68:01. Number of high binders 4. Number of weak binders 20. Number of peptides 28
+Protein PEPLIST. Allele HLA-A*68:01. Number of high binders 1. Number of weak binders 1. Number of peptides 2
 
 -----------------------------------------------------------------------------------

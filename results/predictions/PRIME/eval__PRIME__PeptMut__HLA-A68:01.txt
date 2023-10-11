@@ -1,0 +1,14 @@
+####################
+# Output from PRIME (v2.0)
+# Alleles: A6801
+# Affinity predictions: MixMHCpred (/Users/annieborch/Documents/programs/MixMHCpred-master/MixMHCpred)
+# Input file: /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool/results/predictions/PRIME/tempPept.txt
+#
+# PRIME is freely available for academic users.
+# Private companies should contact Nadette Bulgin (nbulgin@lcr.org) at the Ludwig Institute for Cancer Research Ltd for commercial licenses.
+# To cite PRIME2.0, please refer to:
+# Gfeller et al. Predictions of immunogenicity reveal potent SARS-Cov-2 CD8 T-cell epitopes, BioRxiv (2022).
+####################
+Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_A6801	Score_A6801	%RankBinding_A6801
+VSYKTSCGR	2.250	0.014281	1.292	A6801	2.250	0.014281	1.292
+ELNKIPTMR	0.012	0.217041	0.045	A6801	0.012	0.217041	0.045

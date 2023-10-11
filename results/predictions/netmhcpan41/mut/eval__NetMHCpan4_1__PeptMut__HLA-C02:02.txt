@@ -1,0 +1,61 @@
+# /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/bin/netMHCpan -f ./results/predictions/netmhcpan41/mut/tempPept.txt -p -BA -a HLA-C02:02
+# Wed Oct 11 12:10:19 2023
+# User: annieborch
+# PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
+# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
+# -f       ./results/predictions/netmhcpan41/mut/tempPept.txt File name with input
+# -p       1                    Use peptide input
+# -BA      1                    Include Binding affinity prediction
+# -a       HLA-C02:02           MHC allele
+# Command line parameters set to:
+#	[-rdir filename]     /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64 Home directory for NetMHpan
+#	[-syn filename]      /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/data/synlist.bin Synaps file
+#	[-v]                 0                    Verbose mode
+#	[-dirty]             0                    Dirty mode, leave tmp dir+files
+#	[-tdir filename]     /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanXXXXXX Temporary directory (made with mkdtemp)
+#	[-hlapseudo filename] /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/data/MHC_pseudo.dat File with MHC pseudo sequences
+#	[-hlaseq filename]                        File with full length MHC sequences
+#	[-a line]            HLA-C02:02           MHC allele
+#	[-f filename]        ./results/predictions/netmhcpan41/mut/tempPept.txt File name with input
+#	[-w]                 0                    w option for webface
+#	[-s]                 0                    Sort output on descending affinity
+#	[-p]                 1                    Use peptide input
+#	[-rth float]         0.500000             Rank Threshold for high binding peptides
+#	[-rlt float]         2.000000             Rank Threshold for low binding peptides
+#	[-l string]          8,9,10,11            Peptide length [8-11] (multiple length with ,)
+#	[-xls]               0                    Save output to xls file
+#	[-xlsfile filename]  NetMHCpan_out.xls    Filename for xls dump
+#	[-t float]           -99.900002           Threshold for output (%rank) [<0 print all]
+#	[-thrfmt filename]   /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/data/threshold/%s.thr.%s Format for threshold filenames
+#	[-expfix]            0                    Exclude prefix from synlist
+#	[-version filename]  /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/data/version File with version information
+#	[-inptype int]       0                    Input type [0] FASTA [1] Peptide
+#	[-listMHC]           0                    Print list of alleles included in netMHCpan
+#	[-allname filename]  /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/data/allelenames File with print names for alleles
+#	[-BA]                1                    Include Binding affinity prediction
+
+# NetMHCpan version 4.1b
+
+# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanBR3jHK
+# Input is in PEPTIDE format
+
+# Make both EL and BA predictions
+
+HLA-C02:02 : Distance to training data  0.000 (using nearest neighbor HLA-C02:02)
+
+# Rank Threshold for Strong binding peptides   0.500
+# Rank Threshold for Weak binding peptides   2.000
+---------------------------------------------------------------------------------------------------------------------------
+ Pos         MHC        Peptide      Core Of Gp Gl Ip Il        Icore        Identity  Score_EL %Rank_EL Score_BA %Rank_BA  Aff(nM) BindLevel
+---------------------------------------------------------------------------------------------------------------------------
+   1 HLA-C*02:02      TAQPLTLSL TAQPLTLSL  0  0  0  0  0    TAQPLTLSL         PEPLIST 0.6154200    0.067 0.427663    0.335   489.10 <= SB
+   1 HLA-C*02:02      KSRETANLV KSRETANLV  0  0  0  0  0    KSRETANLV         PEPLIST 0.0283490    2.535 0.228396    2.473  4224.20
+   1 HLA-C*02:02      EVFDFWDTM EVFDFWDTM  0  0  0  0  0    EVFDFWDTM         PEPLIST 0.0588250    1.566 0.270957    1.558  2665.33 <= WB
+   1 HLA-C*02:02     YEQLEQLMQL YQLEQLMQL  0  1  1  0  0   YEQLEQLMQL         PEPLIST 0.0330300    2.328 0.213766    2.876  4948.69
+   1 HLA-C*02:02      LGFLEGTAL LGFLEGTAL  0  0  0  0  0    LGFLEGTAL         PEPLIST 0.0082970    5.145 0.171263    4.603  7838.09
+   1 HLA-C*02:02      SLNQAFAAL SLNQAFAAL  0  0  0  0  0    SLNQAFAAL         PEPLIST 0.0319740    2.371 0.275177    1.478  2546.37
+---------------------------------------------------------------------------------------------------------------------------
+
+Protein PEPLIST. Allele HLA-C*02:02. Number of high binders 1. Number of weak binders 1. Number of peptides 6
+
+-----------------------------------------------------------------------------------

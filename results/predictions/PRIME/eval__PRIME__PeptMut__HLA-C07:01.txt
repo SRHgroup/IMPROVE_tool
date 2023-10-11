@@ -1,0 +1,14 @@
+####################
+# Output from PRIME (v2.0)
+# Alleles: C0701
+# Affinity predictions: MixMHCpred (/Users/annieborch/Documents/programs/MixMHCpred-master/MixMHCpred)
+# Input file: /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool/results/predictions/PRIME/tempPept.txt
+#
+# PRIME is freely available for academic users.
+# Private companies should contact Nadette Bulgin (nbulgin@lcr.org) at the Ludwig Institute for Cancer Research Ltd for commercial licenses.
+# To cite PRIME2.0, please refer to:
+# Gfeller et al. Predictions of immunogenicity reveal potent SARS-Cov-2 CD8 T-cell epitopes, BioRxiv (2022).
+####################
+Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_C0701	Score_C0701	%RankBinding_C0701
+FRQKASRLTL	18.116	0.002121	12.705	C0701	18.116	0.002121	12.705
+NYFFQVPVL	0.603	0.071861	0.689	C0701	0.603	0.071861	0.689

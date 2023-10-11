@@ -1,13 +1,35 @@
-# IMPROVE_tool
+# IMPROVE tool
 
-Priotizing neoepitopes 
+A feature based random forest model to priotize neoepitopes. 
+This repository is bulid for tool usage. 
+Look at all scripts made for the paper at: 
+https://github.com/SRHgroup/IMPROVE_paper
 
-# IMPROVE dependency
+
+# Improve has two steps: 
+1. Feature_calculations.py
+2. Preidct_immunogenicity.py
+
+## 1. Feature calculations 
+
+Feature_calculations.py calculates all features used for the simple model besides: 
+
+NetMHCExp and Expression: 
+  These two features can be obtained by this tool: 
+
+Forginess score: 
+  Can be obtained by https://github.com/andrewrech/antigen.garnish
+  
+
+## IMPROVE dependency and installation
+Save all programs to a folder 
+
+## IMPROVE Simple model
 
 ## PRIME 
-https://github.com/GfellerLab/PRIME/releases/tag/v1.0
+https://github.com/GfellerLab/PRIME 
 
-###Prime depends on:
+### Prime simple depends on:
 https://github.com/GfellerLab/MixMHCpred
 
 ## NetMHCpan 
@@ -19,25 +41,27 @@ https://services.healthtech.dtu.dk/services/NetMHCstabpan-1.0/
 ## Self similarity with kernel self similarity 
 https://github.com/SRHgroup/self_similarity
 
-Save all tools to a folder 
+Save all tools to a folder used for the feature calculation "--ProgramDir"
 
-# Improve has two steps: 
-1. Feature_calculations.py
-2. Preidct_immunogenicity.py
+## IMPROVE TME excluded
 
-## 1. Feature calculations 
-Calculate all features used for the simple model besides 
-NetMHCExp and Expression: 
-  These two features can be obtained by this tool 
+PrioScore: Priority score from Mupexi: https://services.healthtech.dtu.dk/services/MuPeXI-1.1/
+CelPrev: Obtained from PyClone: https://github.com/Roth-Lab/pyclone
 
-Forginess score: 
-  can be obtained by https://github.com/andrewrech/antigen.garnish
+## IMPROVE TME included (RNA sequencing data is needed)
+
+CYT: Geometric mean of GZMA and PRF1 
+
+Monocytes and Blianges: From MCP-Counter 
+
+
   
 ## 2. Predict immunogenicity 
 You can predit with three diffrent versions:
   1. Simple: All features from simple model and addition of NetMHCExp, Expression and Foreginess score 
-  2. TME excluded: addition is VarAlFreq (Varriant allele frequency and cellular prevelance). Cellualr prevelance can be gained from pyclone adn the varriant allele frequecy can be gained from Mutect2.
-  3. TME included: Person specefic RNA feature influding CYT (geometirc mean of GZMA and PRF1) and monocytes gained from MCP-counter. 
+  2. TME excluded: All features from simple model with addition of priority score and cellular prevelance
+  3. TME included: All features from TME excluded including RNA feature:
+    CYT (geometirc mean of GZMA and PRF1) and monocytes, and Blinages gained from MCP-counter. 
   
 # Usage
 

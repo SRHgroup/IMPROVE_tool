@@ -1,0 +1,17 @@
+####################
+# Output from PRIME (v2.0)
+# Alleles: B0702
+# Affinity predictions: MixMHCpred (/Users/annieborch/Documents/programs/MixMHCpred-master/MixMHCpred)
+# Input file: /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool/results/predictions/PRIME/tempPept.txt
+#
+# PRIME is freely available for academic users.
+# Private companies should contact Nadette Bulgin (nbulgin@lcr.org) at the Ludwig Institute for Cancer Research Ltd for commercial licenses.
+# To cite PRIME2.0, please refer to:
+# Gfeller et al. Predictions of immunogenicity reveal potent SARS-Cov-2 CD8 T-cell epitopes, BioRxiv (2022).
+####################
+Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_B0702	Score_B0702	%RankBinding_B0702
+IWARPGKAEL	10.414	0.003743	3.680	B0702	10.414	0.003743	3.680
+RRPRRPLSTLP	23.348	0.001566	17.805	B0702	23.348	0.001566	17.805
+TPIRTETL	10.594	0.003694	1.536	B0702	10.594	0.003694	1.536
+TARAGAGRAV	5.551	0.006646	3.095	B0702	5.551	0.006646	3.095
+NPKEATEAV	0.115	0.100793	0.133	B0702	0.115	0.100793	0.133

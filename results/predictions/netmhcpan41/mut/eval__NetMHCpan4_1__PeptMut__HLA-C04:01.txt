@@ -1,7 +1,7 @@
 # /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/bin/netMHCpan -f ./results/predictions/netmhcpan41/mut/tempPept.txt -p -BA -a HLA-C04:01
-# Thu Sep  7 08:59:05 2023
+# Wed Oct 11 12:10:19 2023
 # User: annieborch
-# PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_tool
+# PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
 # Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
 # -f       ./results/predictions/netmhcpan41/mut/tempPept.txt File name with input
 # -p       1                    Use peptide input
@@ -36,7 +36,7 @@
 
 # NetMHCpan version 4.1b
 
-# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpann1g6hX
+# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanEKklFS
 # Input is in PEPTIDE format
 
 # Make both EL and BA predictions
@@ -48,21 +48,13 @@ HLA-C04:01 : Distance to training data  0.000 (using nearest neighbor HLA-C04:01
 ---------------------------------------------------------------------------------------------------------------------------
  Pos         MHC        Peptide      Core Of Gp Gl Ip Il        Icore        Identity  Score_EL %Rank_EL Score_BA %Rank_BA  Aff(nM) BindLevel
 ---------------------------------------------------------------------------------------------------------------------------
-   1 HLA-C*04:01      HIVDDWLSL HIVDDWLSL  0  0  0  0  0    HIVDDWLSL         PEPLIST 0.0292480    1.670 0.099159    3.609 17101.13 <= WB
-   1 HLA-C*04:01      LINNIIIYF LINNIIIYF  0  0  0  0  0    LINNIIIYF         PEPLIST 0.0080120    4.174 0.075539    7.970 22080.79
-   1 HLA-C*04:01      FALLPLNSL FALLPLNSL  0  0  0  0  0    FALLPLNSL         PEPLIST 0.0561500    1.010 0.121252    1.865 13465.13 <= WB
-   1 HLA-C*04:01     QYREKVETEL QYEKVETEL  0  2  1  0  0   QYREKVETEL         PEPLIST 0.0207520    2.197 0.085230    5.701 19882.77
-   1 HLA-C*04:01    RVLWDEVVARV RWDEVVARV  0  1  2  0  0  RVLWDEVVARV         PEPLIST 0.0234680    1.983 0.127902    1.547 12530.32 <= WB
-   1 HLA-C*04:01      FHRDHSGTL FHRDHSGTL  0  0  0  0  0    FHRDHSGTL         PEPLIST 0.0369320    1.383 0.127409    1.567 12597.34 <= WB
-   1 HLA-C*04:01      YDNLPELYL YDNLPELYL  0  0  0  0  0    YDNLPELYL         PEPLIST 0.0255850    1.848 0.100333    3.475 16885.28 <= WB
-   1 HLA-C*04:01     FAGDDAPWAV FADDAPWAV  0  2  1  0  0   FAGDDAPWAV         PEPLIST 0.0525990    1.066 0.173334    0.555  7664.41 <= WB
-   1 HLA-C*04:01      IEEFKGQYF IEEFKGQYF  0  0  0  0  0    IEEFKGQYF         PEPLIST 0.0305820    1.607 0.098725    3.659 17181.62 <= WB
-   1 HLA-C*04:01      NSDNSPSQL NSDNSPSQL  0  0  0  0  0    NSDNSPSQL         PEPLIST 0.5748530    0.058 0.218491    0.259  4702.05 <= SB
-   1 HLA-C*04:01    GFAGDDAPWAV GFDDAPWAV  0  2  2  0  0  GFAGDDAPWAV         PEPLIST 0.0521550    1.073 0.100855    3.422 16790.18 <= WB
-   1 HLA-C*04:01     AGDDAPWAVF AGDDAPAVF  0  6  1  0  0   AGDDAPWAVF         PEPLIST 0.0328680    1.523 0.112737    2.409 14764.62 <= WB
-   1 HLA-C*04:01      GDDAPWAVF GDDAPWAVF  0  0  0  0  0    GDDAPWAVF         PEPLIST 0.0117440    3.243 0.076197    7.798 21924.13
+   1 HLA-C*04:01      VFMRPFHEV VFMRPFHEV  0  0  0  0  0    VFMRPFHEV         PEPLIST 0.0724900    0.816 0.158561    0.758  8992.84 <= WB
+   1 HLA-C*04:01     YFPQKFPLTF YFPQKPLTF  0  5  1  0  0   YFPQKFPLTF         PEPLIST 0.1512890    0.410 0.206763    0.306  5338.22 <= SB
+   1 HLA-C*04:01      IFMDRGMIV IFMDRGMIV  0  0  0  0  0    IFMDRGMIV         PEPLIST 0.0336600    1.495 0.178953    0.489  7212.32 <= WB
+   1 HLA-C*04:01      YLNLDDTVF YLNLDDTVF  0  0  0  0  0    YLNLDDTVF         PEPLIST 0.0573570    0.992 0.164232    0.675  8457.63 <= WB
+   1 HLA-C*04:01      LWDEVVARV LWDEVVARV  0  0  0  0  0    LWDEVVARV         PEPLIST 0.7563300    0.024 0.379177    0.029   826.47 <= SB
 ---------------------------------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-C*04:01. Number of high binders 1. Number of weak binders 9. Number of peptides 13
+Protein PEPLIST. Allele HLA-C*04:01. Number of high binders 2. Number of weak binders 3. Number of peptides 5
 
 -----------------------------------------------------------------------------------

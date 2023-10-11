@@ -1,0 +1,23 @@
+####################
+# Output from PRIME (v2.0)
+# Alleles: A0201
+# Affinity predictions: MixMHCpred (/Users/annieborch/Documents/programs/MixMHCpred-master/MixMHCpred)
+# Input file: /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool/results/predictions/PRIME/tempPept.txt
+#
+# PRIME is freely available for academic users.
+# Private companies should contact Nadette Bulgin (nbulgin@lcr.org) at the Ludwig Institute for Cancer Research Ltd for commercial licenses.
+# To cite PRIME2.0, please refer to:
+# Gfeller et al. Predictions of immunogenicity reveal potent SARS-Cov-2 CD8 T-cell epitopes, BioRxiv (2022).
+####################
+Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_A0201	Score_A0201	%RankBinding_A0201
+LLLALPPAA	0.451	0.070467	0.375	A0201	0.451	0.070467	0.375
+RLLSLVIWI	0.045	0.196231	0.348	A0201	0.045	0.196231	0.348
+KLDKICFTI	0.010	0.265791	0.050	A0201	0.010	0.265791	0.050
+TLAPPYMLL	0.137	0.132646	0.706	A0201	0.137	0.132646	0.706
+SSTEALISV	0.183	0.115902	0.332	A0201	0.183	0.115902	0.332
+LQYSPIAGI	1.482	0.029638	1.913	A0201	1.482	0.029638	1.913
+RLLEFLSIVA	0.211	0.107981	0.581	A0201	0.211	0.107981	0.581
+ILIQGNDVKI	1.750	0.025393	0.730	A0201	1.750	0.025393	0.730
+GLTLLRFRV	1.527	0.028872	1.445	A0201	1.527	0.028872	1.445
+SLPKIVEEF	1.009	0.039442	1.270	A0201	1.009	0.039442	1.270
+LFVNSEFETI	9.937	0.004473	14.326	A0201	9.937	0.004473	14.326

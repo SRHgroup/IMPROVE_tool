@@ -1,7 +1,7 @@
 # /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/bin/netMHCpan -f ./results/predictions/netmhcpan41/wt/tempPept.txt -p -BA -a HLA-C05:01
-# Thu Sep  7 08:59:06 2023
+# Wed Oct 11 12:10:24 2023
 # User: annieborch
-# PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_tool
+# PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
 # Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
 # -f       ./results/predictions/netmhcpan41/wt/tempPept.txt File name with input
 # -p       1                    Use peptide input
@@ -36,7 +36,7 @@
 
 # NetMHCpan version 4.1b
 
-# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanX3bIMt
+# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpan8HtKDo
 # Input is in PEPTIDE format
 
 # Make both EL and BA predictions
@@ -48,28 +48,9 @@ HLA-C05:01 : Distance to training data  0.000 (using nearest neighbor HLA-C05:01
 ---------------------------------------------------------------------------------------------------------------------------
  Pos         MHC        Peptide      Core Of Gp Gl Ip Il        Icore        Identity  Score_EL %Rank_EL Score_BA %Rank_BA  Aff(nM) BindLevel
 ---------------------------------------------------------------------------------------------------------------------------
-   1 HLA-C*05:01     QIVDDWLSLV QVDDWLSLV  0  1  1  0  0   QIVDDWLSLV         PEPLIST 0.0213990    2.719 0.237132    1.281  3843.21
-   1 HLA-C*05:01      QIVDDWLSL QIVDDWLSL  0  0  0  0  0    QIVDDWLSL         PEPLIST 0.0220840    2.671 0.127267    4.322 12616.71
-   1 HLA-C*05:01      GAPPSNQIV GAPPSNQIV  0  0  0  0  0    GAPPSNQIV         PEPLIST 0.0495750    1.672 0.136821    3.798 11377.64 <= WB
-   1 HLA-C*05:01      VQGKADIRI VQGKADIRI  0  0  0  0  0    VQGKADIRI         PEPLIST 0.0030500    7.287 0.067060   12.760 24202.33
-   1 HLA-C*05:01      LINNILIYF LINNILIYF  0  0  0  0  0    LINNILIYF         PEPLIST 0.0112340    3.847 0.130039    4.154 12243.93
-   1 HLA-C*05:01      LSGAAFQGL LSGAAFQGL  0  0  0  0  0    LSGAAFQGL         PEPLIST 0.0031210    7.208 0.131574    4.061 12042.25
-   1 HLA-C*05:01      LPSLHSESL LPSLHSESL  0  0  0  0  0    LPSLHSESL         PEPLIST 0.0306500    2.238 0.124454    4.493 13006.62
-   1 HLA-C*05:01      FALLPLNIL FALLPLNIL  0  0  0  0  0    FALLPLNIL         PEPLIST 0.0500260    1.664 0.196302    1.898  5977.96 <= WB
-   1 HLA-C*05:01      LQEEATCAI LQEEATCAI  0  0  0  0  0    LQEEATCAI         PEPLIST 0.0406080    1.873 0.287572    0.831  2226.78 <= WB
-   1 HLA-C*05:01      LLIADYLGI LLIADYLGI  0  0  0  0  0    LLIADYLGI         PEPLIST 0.0005950   15.023 0.103870    6.237 16251.30
-   1 HLA-C*05:01    RVLWDEEVARV RVDEEVARV  0  2  2  0  0  RVLWDEEVARV         PEPLIST 0.0713250    1.339 0.179751    2.280  7150.32 <= WB
-   1 HLA-C*05:01      YDNLPELYP YDNLPELYP  0  0  0  0  0    YDNLPELYP         PEPLIST 0.0000790   31.625 0.024398   42.058 38399.39
-   1 HLA-C*05:01     TYDNLPELYP TYDNLPELY  0  0  0  0  0    TYDNLPELY         PEPLIST 0.0004140   17.417 0.040034   25.604 32422.87
-   1 HLA-C*05:01      DVDECSLGA DVDECSLGA  0  0  0  0  0    DVDECSLGA         PEPLIST 0.0011960   11.106 0.063070   13.997 25270.04
-   1 HLA-C*05:01      DTAEILSRL DTAEILSRL  0  0  0  0  0    DTAEILSRL         PEPLIST 0.0220650    2.672 0.102167    6.407 16553.52
-   1 HLA-C*05:01      GQDCLELEL GQDCLELEL  0  0  0  0  0    GQDCLELEL         PEPLIST 0.2226640    0.568 0.367443    0.421   938.35 <= WB
-   1 HLA-C*05:01      LAPPIGNSI LAPPIGNSI  0  0  0  0  0    LAPPIGNSI         PEPLIST 0.1601090    0.747 0.215569    1.566  4853.08 <= WB
-   1 HLA-C*05:01     AGDDAPRAVF AGDDAPAVF  0  6  1  0  0   AGDDAPRAVF         PEPLIST 0.4107010    0.301 0.358267    0.455  1036.30 <= SB
-   1 HLA-C*05:01      LWDEEVARV LWDEEVARV  0  0  0  0  0    LWDEEVARV         PEPLIST 0.1809900    0.677 0.217011    1.546  4777.95 <= WB
-   1 HLA-C*05:01     VLWDEEVARV VLDEEVARV  0  2  1  0  0   VLWDEEVARV         PEPLIST 0.1308600    0.872 0.244031    1.202  3566.77 <= WB
+   1 HLA-C*05:01      YVDSRGLVV YVDSRGLVV  0  0  0  0  0    YVDSRGLVV         PEPLIST 0.9572400    0.018 0.735736    0.011    17.45 <= SB
 ---------------------------------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-C*05:01. Number of high binders 1. Number of weak binders 8. Number of peptides 20
+Protein PEPLIST. Allele HLA-C*05:01. Number of high binders 1. Number of weak binders 0. Number of peptides 1
 
 -----------------------------------------------------------------------------------

@@ -1,7 +1,7 @@
 # /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/bin/netMHCpan -f ./results/predictions/netmhcpan41/mut/tempPept.txt -p -BA -a HLA-B35:01
-# Thu Sep  7 08:59:04 2023
+# Wed Oct 11 12:10:18 2023
 # User: annieborch
-# PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_tool
+# PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
 # Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
 # -f       ./results/predictions/netmhcpan41/mut/tempPept.txt File name with input
 # -p       1                    Use peptide input
@@ -36,7 +36,7 @@
 
 # NetMHCpan version 4.1b
 
-# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanoFIgiG
+# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanOk4lIz
 # Input is in PEPTIDE format
 
 # Make both EL and BA predictions
@@ -48,16 +48,9 @@ HLA-B35:01 : Distance to training data  0.000 (using nearest neighbor HLA-B35:01
 ---------------------------------------------------------------------------------------------------------------------------
  Pos         MHC        Peptide      Core Of Gp Gl Ip Il        Icore        Identity  Score_EL %Rank_EL Score_BA %Rank_BA  Aff(nM) BindLevel
 ---------------------------------------------------------------------------------------------------------------------------
-   1 HLA-B*35:01      HIVDDWLSL HIVDDWLSL  0  0  0  0  0    HIVDDWLSL         PEPLIST 0.1693680    1.091 0.397559    0.890   677.41 <= WB
-   1 HLA-B*35:01      LINNIIIYF LINNIIIYF  0  0  0  0  0    LINNIIIYF         PEPLIST 0.0764560    1.848 0.320888    1.473  1552.84 <= WB
-   1 HLA-B*35:01      EAIKNAGNL EAIKNAGNL  0  0  0  0  0    EAIKNAGNL         PEPLIST 0.0381170    2.768 0.191169    3.860  6319.35
-   1 HLA-B*35:01      FALLPLNSL FALLPLNSL  0  0  0  0  0    FALLPLNSL         PEPLIST 0.3029160    0.659 0.413752    0.803   568.54 <= WB
-   1 HLA-B*35:01      NPNLKKNVL NPNLKKNVL  0  0  0  0  0    NPNLKKNVL         PEPLIST 0.3108580    0.644 0.235961    2.705  3892.21 <= WB
-   1 HLA-B*35:01      APWAVFPSI APWAVFPSI  0  0  0  0  0    APWAVFPSI         PEPLIST 0.1390230    1.273 0.330292    1.383  1402.61 <= WB
-   1 HLA-B*35:01     DTLINNIIIY DTINNIIIY  0  2  1  0  0   DTLINNIIIY         PEPLIST 0.0546260    2.286 0.230248    2.826  4140.39
-   1 HLA-B*35:01      IIYFASSVF IIYFASSVF  0  0  0  0  0    IIYFASSVF         PEPLIST 0.2420340    0.800 0.557004    0.299   120.68 <= WB
+   1 HLA-B*35:01     VAWGGNHSVF VAWGGNHSF  0  8  1  0  0   VAWGGNHSVF         PEPLIST 0.3012610    0.662 0.468480    0.555   314.48 <= WB
 ---------------------------------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-B*35:01. Number of high binders 0. Number of weak binders 6. Number of peptides 8
+Protein PEPLIST. Allele HLA-B*35:01. Number of high binders 0. Number of weak binders 1. Number of peptides 1
 
 -----------------------------------------------------------------------------------

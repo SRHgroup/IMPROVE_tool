@@ -1,0 +1,15 @@
+####################
+# Output from PRIME (v2.0)
+# Alleles: B1501
+# Affinity predictions: MixMHCpred (/Users/annieborch/Documents/programs/MixMHCpred-master/MixMHCpred)
+# Input file: /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool/results/predictions/PRIME/tempPept.txt
+#
+# PRIME is freely available for academic users.
+# Private companies should contact Nadette Bulgin (nbulgin@lcr.org) at the Ludwig Institute for Cancer Research Ltd for commercial licenses.
+# To cite PRIME2.0, please refer to:
+# Gfeller et al. Predictions of immunogenicity reveal potent SARS-Cov-2 CD8 T-cell epitopes, BioRxiv (2022).
+####################
+Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_B1501	Score_B1501	%RankBinding_B1501
+RNNNSVSSL	1.485	0.025899	1.116	B1501	1.485	0.025899	1.116
+KKKPSEIISF	0.713	0.045133	0.416	B1501	0.713	0.045133	0.416
+KIHNEEKPY	0.647	0.048538	0.203	B1501	0.647	0.048538	0.203

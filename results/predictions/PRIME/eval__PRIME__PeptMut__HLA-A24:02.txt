@@ -1,0 +1,22 @@
+####################
+# Output from PRIME (v2.0)
+# Alleles: A2402
+# Affinity predictions: MixMHCpred (/Users/annieborch/Documents/programs/MixMHCpred-master/MixMHCpred)
+# Input file: /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool/results/predictions/PRIME/tempPept.txt
+#
+# PRIME is freely available for academic users.
+# Private companies should contact Nadette Bulgin (nbulgin@lcr.org) at the Ludwig Institute for Cancer Research Ltd for commercial licenses.
+# To cite PRIME2.0, please refer to:
+# Gfeller et al. Predictions of immunogenicity reveal potent SARS-Cov-2 CD8 T-cell epitopes, BioRxiv (2022).
+####################
+Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_A2402	Score_A2402	%RankBinding_A2402
+LIHAPRNLTF	3.257	0.014609	2.116	A2402	3.257	0.014609	2.116
+LLLYIANVAHF	2.242	0.020946	2.709	A2402	2.242	0.020946	2.709
+SYLLATDFML	0.358	0.083622	0.877	A2402	0.358	0.083622	0.877
+DFQKYEEGF	0.836	0.047535	0.451	A2402	0.836	0.047535	0.451
+NQYMQRMASV	34.049	0.000880	51.029	A2402	34.049	0.000880	51.029
+EYDKFKLYL	0.056	0.186776	0.096	A2402	0.056	0.186776	0.096
+FYAFFYLRL	0.013	0.257464	0.100	A2402	0.013	0.257464	0.100
+TWEAESTGTW	4.425	0.010719	3.316	A2402	4.425	0.010719	3.316
+VLAGTKALW	1.490	0.030770	1.000	A2402	1.490	0.030770	1.000
+VATYSNSSQPF	12.326	0.003667	5.574	A2402	12.326	0.003667	5.574

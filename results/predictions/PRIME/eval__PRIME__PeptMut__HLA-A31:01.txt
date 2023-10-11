@@ -1,0 +1,16 @@
+####################
+# Output from PRIME (v2.0)
+# Alleles: A3101
+# Affinity predictions: MixMHCpred (/Users/annieborch/Documents/programs/MixMHCpred-master/MixMHCpred)
+# Input file: /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool/results/predictions/PRIME/tempPept.txt
+#
+# PRIME is freely available for academic users.
+# Private companies should contact Nadette Bulgin (nbulgin@lcr.org) at the Ludwig Institute for Cancer Research Ltd for commercial licenses.
+# To cite PRIME2.0, please refer to:
+# Gfeller et al. Predictions of immunogenicity reveal potent SARS-Cov-2 CD8 T-cell epitopes, BioRxiv (2022).
+####################
+Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_A3101	Score_A3101	%RankBinding_A3101
+GGWGGLFHH	0.775	0.040606	2.446	A3101	0.775	0.040606	2.446
+RASGTPGLRAR	0.776	0.040553	0.120	A3101	0.776	0.040553	0.120
+QAIYKFQSR	0.078	0.146246	0.107	A3101	0.078	0.146246	0.107
+TMNEYIKQR	0.029	0.199386	0.028	A3101	0.029	0.199386	0.028
