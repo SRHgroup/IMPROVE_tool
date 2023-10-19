@@ -1,8 +1,8 @@
 # /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/bin/netMHCpan -f ./results/predictions/netmhcpan41/mut/tempPept.txt -p -BA -a HLA-B27:05
-# Wed Oct 11 12:10:18 2023
+# Thu Oct 19 11:36:06 2023
 # User: annieborch
 # PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
-# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
+# Host: Darwin Annies-MacBook-Pro.local 22.6.0 x86_64
 # -f       ./results/predictions/netmhcpan41/mut/tempPept.txt File name with input
 # -p       1                    Use peptide input
 # -BA      1                    Include Binding affinity prediction
@@ -36,7 +36,7 @@
 
 # NetMHCpan version 4.1b
 
-# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanNGaveo
+# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanO1tCJD
 # Input is in PEPTIDE format
 
 # Make both EL and BA predictions
@@ -48,10 +48,12 @@ HLA-B27:05 : Distance to training data  0.000 (using nearest neighbor HLA-B27:05
 ---------------------------------------------------------------------------------------------------------------------------
  Pos         MHC        Peptide      Core Of Gp Gl Ip Il        Icore        Identity  Score_EL %Rank_EL Score_BA %Rank_BA  Aff(nM) BindLevel
 ---------------------------------------------------------------------------------------------------------------------------
-   1 HLA-B*27:05     GREVITKILL GRVITKILL  0  2  1  0  0   GREVITKILL         PEPLIST 0.4011000    0.622 0.493512    0.698   239.87 <= WB
-   1 HLA-B*27:05      VREQMRLEL VREQMRLEL  0  0  0  0  0    VREQMRLEL         PEPLIST 0.3990020    0.626 0.385522    1.627   771.64 <= WB
+   1 HLA-B*27:05      QRSEGVGQV QRSEGVGQV  0  0  0  0  0    QRSEGVGQV         PEPLIST 0.2380890    1.011 0.239428    4.323  3748.91 <= WB
+   1 HLA-B*27:05      LRWGGGYKG LRWGGGYKG  0  0  0  0  0    LRWGGGYKG         PEPLIST 0.1373950    1.514 0.479231    0.789   279.95 <= WB
+   1 HLA-B*27:05      IRFQLPISS IRFQLPISS  0  0  0  0  0    IRFQLPISS         PEPLIST 0.3787100    0.665 0.343920    2.149  1210.32 <= WB
+   1 HLA-B*27:05     VRFWRIDKDY VRFWRIDKY  0  8  1  0  0   VRFWRIDKDY         PEPLIST 0.2779920    0.895 0.434700    1.135   453.24 <= WB
 ---------------------------------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-B*27:05. Number of high binders 0. Number of weak binders 2. Number of peptides 2
+Protein PEPLIST. Allele HLA-B*27:05. Number of high binders 0. Number of weak binders 4. Number of peptides 4
 
 -----------------------------------------------------------------------------------

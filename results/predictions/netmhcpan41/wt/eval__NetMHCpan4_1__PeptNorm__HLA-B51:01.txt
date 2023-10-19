@@ -1,8 +1,8 @@
 # /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/bin/netMHCpan -f ./results/predictions/netmhcpan41/wt/tempPept.txt -p -BA -a HLA-B51:01
-# Wed Oct 11 12:10:23 2023
+# Thu Oct 19 11:36:12 2023
 # User: annieborch
 # PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
-# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
+# Host: Darwin Annies-MacBook-Pro.local 22.6.0 x86_64
 # -f       ./results/predictions/netmhcpan41/wt/tempPept.txt File name with input
 # -p       1                    Use peptide input
 # -BA      1                    Include Binding affinity prediction
@@ -36,7 +36,7 @@
 
 # NetMHCpan version 4.1b
 
-# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpany1ND81
+# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanAK5yGp
 # Input is in PEPTIDE format
 
 # Make both EL and BA predictions
@@ -48,9 +48,10 @@ HLA-B51:01 : Distance to training data  0.000 (using nearest neighbor HLA-B51:01
 ---------------------------------------------------------------------------------------------------------------------------
  Pos         MHC        Peptide      Core Of Gp Gl Ip Il        Icore        Identity  Score_EL %Rank_EL Score_BA %Rank_BA  Aff(nM) BindLevel
 ---------------------------------------------------------------------------------------------------------------------------
-   1 HLA-B*51:01    QSSPLPQSPQA QPLPQSPQA  0  1  2  0  0  QSSPLPQSPQA         PEPLIST 0.0175400    6.245 0.052975   15.034 28186.56
+   1 HLA-B*51:01      SPQALQQLV SPQALQQLV  0  0  0  0  0    SPQALQQLV         PEPLIST 0.5814660    0.224 0.275111    0.453  2548.19 <= SB
+   1 HLA-B*51:01      LPLKLESEV LPLKLESEV  0  0  0  0  0    LPLKLESEV         PEPLIST 0.8261090    0.053 0.444706    0.064   406.73 <= SB
 ---------------------------------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-B*51:01. Number of high binders 0. Number of weak binders 0. Number of peptides 1
+Protein PEPLIST. Allele HLA-B*51:01. Number of high binders 2. Number of weak binders 0. Number of peptides 2
 
 -----------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 ####################
 # Output from PRIME (v2.0)
-# Alleles: A3201
+# Alleles: B3701
 # Affinity predictions: MixMHCpred (/Users/annieborch/Documents/programs/MixMHCpred-master/MixMHCpred)
 # Input file: /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool/results/predictions/PRIME/tempPept.txt
 #
@@ -9,6 +9,5 @@
 # To cite PRIME2.0, please refer to:
 # Gfeller et al. Predictions of immunogenicity reveal potent SARS-Cov-2 CD8 T-cell epitopes, BioRxiv (2022).
 ####################
-Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_A3201	Score_A3201	%RankBinding_A3201
-VLNEYFHNF	0.004	0.300048	0.025	A3201	0.004	0.300048	0.025
-LMHKAMQKW	0.540	0.062046	0.204	A3201	0.540	0.062046	0.204
+Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_B3701	Score_B3701	%RankBinding_B3701
+SAGAFILYKF	5.353	0.007488	15.608	B3701	5.353	0.007488	15.608

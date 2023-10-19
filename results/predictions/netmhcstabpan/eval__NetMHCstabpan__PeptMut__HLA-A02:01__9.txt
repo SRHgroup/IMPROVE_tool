@@ -1,8 +1,8 @@
 # /Users/annieborch/Documents/programs/netMHCstabpan-1.0/Darwin_x86_64/bin/netMHCstabpan -f ./results/predictions/netmhcstabpan/tempPept.txt -p -a HLA-A02:01 -affpred /Users/annieborch/Documents/programs/netMHCpan-4.1/netmhcpan
-# Wed Oct 11 12:10:25 2023
+# Thu Oct 19 11:36:14 2023
 # User: annieborch
 # PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
-# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
+# Host: Darwin Annies-MacBook-Pro.local 22.6.0 x86_64
 # -f       ./results/predictions/netmhcstabpan/tempPept.txt File name with input
 # -p       1                    Use peptide input
 # -a       HLA-A02:01           HLA allele
@@ -48,16 +48,16 @@ HLA-A02:01 : Distance to traning data  0.000 (using nearest neighbor HLA-A02:01)
 -----------------------------------------------------------------------------------------------------
  pos      HLA         peptide         Identity       Pred     Thalf(h) %Rank_Stab BindLevel
 -----------------------------------------------------------------------------------------------------
-    0  HLA-A*02:01    LLLALPPAA         PEPLIST      0.623       1.47       3.00
-    0  HLA-A*02:01    RLLSLVIWI         PEPLIST      0.899       6.49       0.40      <= SB
-    0  HLA-A*02:01    KLDKICFTI         PEPLIST      0.934      10.20       0.17      <= SB
-    0  HLA-A*02:01    TLAPPYMLL         PEPLIST      0.570       1.23       3.50
-    0  HLA-A*02:01    SSTEALISV         PEPLIST      0.394       0.74       6.00
-    0  HLA-A*02:01    LQYSPIAGI         PEPLIST      0.626       1.48       3.00
-    0  HLA-A*02:01    GLTLLRFRV         PEPLIST      0.651       1.61       2.50
-    0  HLA-A*02:01    SLPKIVEEF         PEPLIST      0.421       0.80       5.50
+    0  HLA-A*02:01    FLPAGVRMV         PEPLIST      0.878       5.32       0.60      <= WB
+    0  HLA-A*02:01    LLWMGVLAL         PEPLIST      0.899       6.48       0.40      <= SB
+    0  HLA-A*02:01    SLDLHFTDV         PEPLIST      0.550       1.16       4.00
+    0  HLA-A*02:01    AALPGVPPV         PEPLIST      0.837       3.89       0.90      <= WB
+    0  HLA-A*02:01    ALSGFYSLL         PEPLIST      0.798       3.08       1.20      <= WB
+    0  HLA-A*02:01    RIFWPTKTI         PEPLIST      0.512       1.04       4.50
+    0  HLA-A*02:01    LLVPASQHL         PEPLIST      0.723       2.14       1.80      <= WB
+    0  HLA-A*02:01    KVIDEEWQI         PEPLIST      0.732       2.22       1.80      <= WB
 -----------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-A*02:01. Number of high binders 2. Number of weak binders 0. Number of peptides 8
+Protein PEPLIST. Allele HLA-A*02:01. Number of high binders 1. Number of weak binders 5. Number of peptides 8
 
 -----------------------------------------------------------------------------------------------------

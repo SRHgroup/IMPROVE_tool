@@ -1,12 +1,12 @@
-# /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/bin/netMHCpan -f ./results/predictions/netmhcpan41/mut/tempPept.txt -p -BA -a HLA-C05:01
-# Wed Oct 11 12:10:19 2023
+# /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/bin/netMHCpan -f ./results/predictions/netmhcpan41/wt/tempPept.txt -p -BA -a HLA-A30:02
+# Thu Oct 19 11:36:10 2023
 # User: annieborch
 # PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
-# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
-# -f       ./results/predictions/netmhcpan41/mut/tempPept.txt File name with input
+# Host: Darwin Annies-MacBook-Pro.local 22.6.0 x86_64
+# -f       ./results/predictions/netmhcpan41/wt/tempPept.txt File name with input
 # -p       1                    Use peptide input
 # -BA      1                    Include Binding affinity prediction
-# -a       HLA-C05:01           MHC allele
+# -a       HLA-A30:02           MHC allele
 # Command line parameters set to:
 #	[-rdir filename]     /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64 Home directory for NetMHpan
 #	[-syn filename]      /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/data/synlist.bin Synaps file
@@ -15,8 +15,8 @@
 #	[-tdir filename]     /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanXXXXXX Temporary directory (made with mkdtemp)
 #	[-hlapseudo filename] /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/data/MHC_pseudo.dat File with MHC pseudo sequences
 #	[-hlaseq filename]                        File with full length MHC sequences
-#	[-a line]            HLA-C05:01           MHC allele
-#	[-f filename]        ./results/predictions/netmhcpan41/mut/tempPept.txt File name with input
+#	[-a line]            HLA-A30:02           MHC allele
+#	[-f filename]        ./results/predictions/netmhcpan41/wt/tempPept.txt File name with input
 #	[-w]                 0                    w option for webface
 #	[-s]                 0                    Sort output on descending affinity
 #	[-p]                 1                    Use peptide input
@@ -36,21 +36,21 @@
 
 # NetMHCpan version 4.1b
 
-# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanXdbp4m
+# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanEpULK2
 # Input is in PEPTIDE format
 
 # Make both EL and BA predictions
 
-HLA-C05:01 : Distance to training data  0.000 (using nearest neighbor HLA-C05:01)
+HLA-A30:02 : Distance to training data  0.000 (using nearest neighbor HLA-A30:02)
 
 # Rank Threshold for Strong binding peptides   0.500
 # Rank Threshold for Weak binding peptides   2.000
 ---------------------------------------------------------------------------------------------------------------------------
  Pos         MHC        Peptide      Core Of Gp Gl Ip Il        Icore        Identity  Score_EL %Rank_EL Score_BA %Rank_BA  Aff(nM) BindLevel
 ---------------------------------------------------------------------------------------------------------------------------
-   1 HLA-C*05:01      YVDSRGLVI YVDSRGLVI  0  0  0  0  0    YVDSRGLVI         PEPLIST 0.9541330    0.019 0.736994    0.011    17.21 <= SB
+   1 HLA-A*30:02    ISYGGCVVQFY ISYGGVQFY  0  5  2  0  0  ISYGGCVVQFY         PEPLIST 0.5623140    0.217 0.585850    0.271    88.32 <= SB
 ---------------------------------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-C*05:01. Number of high binders 1. Number of weak binders 0. Number of peptides 1
+Protein PEPLIST. Allele HLA-A*30:02. Number of high binders 1. Number of weak binders 0. Number of peptides 1
 
 -----------------------------------------------------------------------------------

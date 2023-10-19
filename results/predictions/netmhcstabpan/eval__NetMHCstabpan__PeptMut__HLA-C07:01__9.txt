@@ -1,8 +1,8 @@
 # /Users/annieborch/Documents/programs/netMHCstabpan-1.0/Darwin_x86_64/bin/netMHCstabpan -f ./results/predictions/netmhcstabpan/tempPept.txt -p -a HLA-C07:01 -affpred /Users/annieborch/Documents/programs/netMHCpan-4.1/netmhcpan
-# Wed Oct 11 12:10:32 2023
+# Thu Oct 19 11:36:21 2023
 # User: annieborch
 # PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
-# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
+# Host: Darwin Annies-MacBook-Pro.local 22.6.0 x86_64
 # -f       ./results/predictions/netmhcstabpan/tempPept.txt File name with input
 # -p       1                    Use peptide input
 # -a       HLA-C07:01           HLA allele
@@ -48,9 +48,10 @@ HLA-C07:01 : Distance to traning data  0.316 (using nearest neighbor HLA-B46:01)
 -----------------------------------------------------------------------------------------------------
  pos      HLA         peptide         Identity       Pred     Thalf(h) %Rank_Stab BindLevel
 -----------------------------------------------------------------------------------------------------
-    0  HLA-C*07:01    NYFFQVPVL         PEPLIST      0.001       0.10      49.00
+    0  HLA-C*07:01    GRVVPPLSY         PEPLIST      0.001       0.11      31.00
+    0  HLA-C*07:01    MPTPVVMTL         PEPLIST      0.034       0.21       1.10      <= WB
 -----------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-C*07:01. Number of high binders 0. Number of weak binders 0. Number of peptides 1
+Protein PEPLIST. Allele HLA-C*07:01. Number of high binders 0. Number of weak binders 1. Number of peptides 2
 
 -----------------------------------------------------------------------------------------------------

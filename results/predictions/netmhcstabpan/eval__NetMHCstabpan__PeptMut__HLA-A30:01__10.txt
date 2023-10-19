@@ -1,11 +1,11 @@
-# /Users/annieborch/Documents/programs/netMHCstabpan-1.0/Darwin_x86_64/bin/netMHCstabpan -f ./results/predictions/netmhcstabpan/tempPept.txt -p -a HLA-B44:02 -affpred /Users/annieborch/Documents/programs/netMHCpan-4.1/netmhcpan
-# Wed Oct 11 12:10:40 2023
+# /Users/annieborch/Documents/programs/netMHCstabpan-1.0/Darwin_x86_64/bin/netMHCstabpan -f ./results/predictions/netmhcstabpan/tempPept.txt -p -a HLA-A30:01 -affpred /Users/annieborch/Documents/programs/netMHCpan-4.1/netmhcpan
+# Thu Oct 19 11:36:23 2023
 # User: annieborch
 # PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
-# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
+# Host: Darwin Annies-MacBook-Pro.local 22.6.0 x86_64
 # -f       ./results/predictions/netmhcstabpan/tempPept.txt File name with input
 # -p       1                    Use peptide input
-# -a       HLA-B44:02           HLA allele
+# -a       HLA-A30:01           HLA allele
 # -affpred /Users/annieborch/Documents/programs/netMHCpan-4.1/netmhcpan MHC affinity predictor
 # Command line parameters set to:
 #	[-rdir filename]     /Users/annieborch/Documents/programs/netMHCstabpan-1.0/Darwin_x86_64 Home directory for NetMHpan
@@ -15,7 +15,7 @@
 #	[-tdir filename]     /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T/ Temporary directory (Default $$)
 #	[-hlapseudo filename] /Users/annieborch/Documents/programs/netMHCstabpan-1.0/Darwin_x86_64/data/MHC_pseudo.dat File with HLA pseudo sequences
 #	[-hlaseq filename]                        File with full length HLA sequences
-#	[-a line]            HLA-B44:02           HLA allele
+#	[-a line]            HLA-A30:01           HLA allele
 #	[-f filename]        ./results/predictions/netmhcstabpan/tempPept.txt File name with input
 #	[-w]                 0                    w option for webface
 #	[-s int]             -1                   Sort output on descending [0] stability, [1] affinity, [2] combined, [-1] no sorting
@@ -41,16 +41,16 @@
 
 # Input is in PEPTIDE format
 
-HLA-B44:02 : Distance to traning data  0.050 (using nearest neighbor HLA-B44:05)
+HLA-A30:01 : Distance to traning data  0.000 (using nearest neighbor HLA-A30:01)
 
 # Rank Threshold for Strong binding peptides   0.500
 # Rank Threshold for Weak binding peptides   2.000
 -----------------------------------------------------------------------------------------------------
  pos      HLA         peptide         Identity       Pred     Thalf(h) %Rank_Stab BindLevel
 -----------------------------------------------------------------------------------------------------
-    0  HLA-B*44:02  VEVPERTVAQW         PEPLIST      0.554       1.17       0.40      <= SB
+    0  HLA-A*30:01   RAKLTGHSYR         PEPLIST      0.569       1.23       0.30      <= SB
 -----------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-B*44:02. Number of high binders 1. Number of weak binders 0. Number of peptides 1
+Protein PEPLIST. Allele HLA-A*30:01. Number of high binders 1. Number of weak binders 0. Number of peptides 1
 
 -----------------------------------------------------------------------------------------------------

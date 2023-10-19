@@ -1,8 +1,8 @@
 # /Users/annieborch/Documents/programs/netMHCstabpan-1.0/Darwin_x86_64/bin/netMHCstabpan -f ./results/predictions/netmhcstabpan/tempPept.txt -p -a HLA-B07:02 -affpred /Users/annieborch/Documents/programs/netMHCpan-4.1/netmhcpan
-# Wed Oct 11 12:10:28 2023
+# Thu Oct 19 11:36:16 2023
 # User: annieborch
 # PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
-# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
+# Host: Darwin Annies-MacBook-Pro.local 22.6.0 x86_64
 # -f       ./results/predictions/netmhcstabpan/tempPept.txt File name with input
 # -p       1                    Use peptide input
 # -a       HLA-B07:02           HLA allele
@@ -48,9 +48,15 @@ HLA-B07:02 : Distance to traning data  0.000 (using nearest neighbor HLA-B07:02)
 -----------------------------------------------------------------------------------------------------
  pos      HLA         peptide         Identity       Pred     Thalf(h) %Rank_Stab BindLevel
 -----------------------------------------------------------------------------------------------------
-    0  HLA-B*07:02    NPKEATEAV         PEPLIST      0.788       2.91       0.40      <= SB
+    0  HLA-B*07:02    LPGPALRGL         PEPLIST      0.507       1.02       1.40      <= WB
+    0  HLA-B*07:02    KPETLVKDV         PEPLIST      0.179       0.40       6.50
+    0  HLA-B*07:02    AAAPVWRAF         PEPLIST      0.496       0.99       1.50      <= WB
+    0  HLA-B*07:02    LPFIPEVAS         PEPLIST      0.107       0.31      11.00
+    0  HLA-B*07:02    LLFERPHTM         PEPLIST      0.217       0.45       5.50
+    0  HLA-B*07:02    LSAASSSSL         PEPLIST      0.398       0.75       2.50
+    0  HLA-B*07:02    RAAARYTPL         PEPLIST      0.889       5.87       0.12      <= SB
 -----------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-B*07:02. Number of high binders 1. Number of weak binders 0. Number of peptides 1
+Protein PEPLIST. Allele HLA-B*07:02. Number of high binders 1. Number of weak binders 2. Number of peptides 7
 
 -----------------------------------------------------------------------------------------------------

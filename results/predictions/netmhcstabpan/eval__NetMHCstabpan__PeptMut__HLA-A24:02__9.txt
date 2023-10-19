@@ -1,8 +1,8 @@
 # /Users/annieborch/Documents/programs/netMHCstabpan-1.0/Darwin_x86_64/bin/netMHCstabpan -f ./results/predictions/netmhcstabpan/tempPept.txt -p -a HLA-A24:02 -affpred /Users/annieborch/Documents/programs/netMHCpan-4.1/netmhcpan
-# Wed Oct 11 12:10:26 2023
+# Thu Oct 19 11:36:15 2023
 # User: annieborch
 # PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
-# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
+# Host: Darwin Annies-MacBook-Pro.local 22.6.0 x86_64
 # -f       ./results/predictions/netmhcstabpan/tempPept.txt File name with input
 # -p       1                    Use peptide input
 # -a       HLA-A24:02           HLA allele
@@ -48,12 +48,11 @@ HLA-A24:02 : Distance to traning data  0.000 (using nearest neighbor HLA-A24:02)
 -----------------------------------------------------------------------------------------------------
  pos      HLA         peptide         Identity       Pred     Thalf(h) %Rank_Stab BindLevel
 -----------------------------------------------------------------------------------------------------
-    0  HLA-A*24:02    DFQKYEEGF         PEPLIST      0.021       0.18      17.00
-    0  HLA-A*24:02    EYDKFKLYL         PEPLIST      0.389       0.73       1.40      <= WB
-    0  HLA-A*24:02    FYAFFYLRL         PEPLIST      0.900       6.55       0.12      <= SB
-    0  HLA-A*24:02    VLAGTKALW         PEPLIST      0.437       0.84       1.20      <= WB
+    0  HLA-A*24:02    IWFFVGFML         PEPLIST      0.675       1.76       0.60      <= WB
+    0  HLA-A*24:02    DLGGFFSYF         PEPLIST      0.028       0.19      14.00
+    0  HLA-A*24:02    SVTETTDKF         PEPLIST      0.120       0.33       5.00
 -----------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-A*24:02. Number of high binders 1. Number of weak binders 2. Number of peptides 4
+Protein PEPLIST. Allele HLA-A*24:02. Number of high binders 0. Number of weak binders 1. Number of peptides 3
 
 -----------------------------------------------------------------------------------------------------

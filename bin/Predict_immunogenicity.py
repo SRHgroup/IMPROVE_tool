@@ -81,7 +81,7 @@ if model == "TME_excluded":
   cols_to_include.extend(add_cols)          
 
 if model == "TME_included": 
-  add_cols = ['CelPrev','PrioScore','CYT','HLAexp','Monocytes','Blinage']
+  add_cols = ['CelPrev','PrioScore','CYT','HLAexp','MCPmean']
   cols_to_include.extend(add_cols)
 print(cols_to_include)
 

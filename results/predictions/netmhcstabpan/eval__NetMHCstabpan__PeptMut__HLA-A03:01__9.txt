@@ -1,8 +1,8 @@
 # /Users/annieborch/Documents/programs/netMHCstabpan-1.0/Darwin_x86_64/bin/netMHCstabpan -f ./results/predictions/netmhcstabpan/tempPept.txt -p -a HLA-A03:01 -affpred /Users/annieborch/Documents/programs/netMHCpan-4.1/netmhcpan
-# Wed Oct 11 12:10:26 2023
+# Thu Oct 19 11:36:15 2023
 # User: annieborch
 # PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
-# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
+# Host: Darwin Annies-MacBook-Pro.local 22.6.0 x86_64
 # -f       ./results/predictions/netmhcstabpan/tempPept.txt File name with input
 # -p       1                    Use peptide input
 # -a       HLA-A03:01           HLA allele
@@ -48,13 +48,11 @@ HLA-A03:01 : Distance to traning data  0.000 (using nearest neighbor HLA-A03:01)
 -----------------------------------------------------------------------------------------------------
  pos      HLA         peptide         Identity       Pred     Thalf(h) %Rank_Stab BindLevel
 -----------------------------------------------------------------------------------------------------
-    0  HLA-A*03:01    KLWPRALRK         PEPLIST      0.951      13.70       0.03      <= SB
-    0  HLA-A*03:01    SGFGRTHKK         PEPLIST      0.253       0.50       2.50
-    0  HLA-A*03:01    LLLAAVVSH         PEPLIST      0.163       0.38       4.00
-    0  HLA-A*03:01    VISHMRQEK         PEPLIST      0.490       0.97       1.10      <= WB
-    0  HLA-A*03:01    RAQPEMWGK         PEPLIST      0.455       0.88       1.20      <= WB
+    0  HLA-A*03:01    HLPGKDILK         PEPLIST      0.215       0.45       3.00
+    0  HLA-A*03:01    ASIGGLAAH         PEPLIST      0.114       0.32       5.50
+    0  HLA-A*03:01    TFFFSLKEK         PEPLIST      0.032       0.20      14.00
 -----------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-A*03:01. Number of high binders 1. Number of weak binders 2. Number of peptides 5
+Protein PEPLIST. Allele HLA-A*03:01. Number of high binders 0. Number of weak binders 0. Number of peptides 3
 
 -----------------------------------------------------------------------------------------------------

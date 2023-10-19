@@ -1,8 +1,8 @@
 # /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/bin/netMHCpan -f ./results/predictions/netmhcpan41/mut/tempPept.txt -p -BA -a HLA-B08:01
-# Wed Oct 11 12:10:17 2023
+# Thu Oct 19 11:36:06 2023
 # User: annieborch
 # PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
-# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
+# Host: Darwin Annies-MacBook-Pro.local 22.6.0 x86_64
 # -f       ./results/predictions/netmhcpan41/mut/tempPept.txt File name with input
 # -p       1                    Use peptide input
 # -BA      1                    Include Binding affinity prediction
@@ -36,7 +36,7 @@
 
 # NetMHCpan version 4.1b
 
-# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpan7DSYwe
+# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanLEugpx
 # Input is in PEPTIDE format
 
 # Make both EL and BA predictions
@@ -48,11 +48,14 @@ HLA-B08:01 : Distance to training data  0.000 (using nearest neighbor HLA-B08:01
 ---------------------------------------------------------------------------------------------------------------------------
  Pos         MHC        Peptide      Core Of Gp Gl Ip Il        Icore        Identity  Score_EL %Rank_EL Score_BA %Rank_BA  Aff(nM) BindLevel
 ---------------------------------------------------------------------------------------------------------------------------
-   1 HLA-B*08:01       SPVQKLDL SPVQKL-DL  0  0  0  6  1     SPVQKLDL         PEPLIST 0.4000500    0.338 0.298833    2.027  1971.34 <= SB
-   1 HLA-B*08:01     FPAKKRTLEL FPKKRTLEL  0  2  1  0  0   FPAKKRTLEL         PEPLIST 0.8641850    0.028 0.751149    0.015    14.77 <= SB
-   1 HLA-B*08:01      DKKVKLIVL DKKVKLIVL  0  0  0  0  0    DKKVKLIVL         PEPLIST 0.8254520    0.038 0.504678    0.301   212.57 <= SB
+   1 HLA-B*08:01      SLTPVFTTL SLTPVFTTL  0  0  0  0  0    SLTPVFTTL         PEPLIST 0.3336260    0.442 0.245386    3.386  3514.86 <= SB
+   1 HLA-B*08:01      RRKVPAQRL RRKVPAQRL  0  0  0  0  0    RRKVPAQRL         PEPLIST 0.0610850    2.444 0.152218    9.748  9631.68
+   1 HLA-B*08:01      NKRDLTGAL NKRDLTGAL  0  0  0  0  0    NKRDLTGAL         PEPLIST 0.0668600    2.301 0.270603    2.620  2675.56
+   1 HLA-B*08:01      GSQKKKRTI GSQKKKRTI  0  0  0  0  0    GSQKKKRTI         PEPLIST 0.0622130    2.416 0.167086    8.129  8200.45
+   1 HLA-B*08:01       TAATPFVF TAATPF-VF  0  0  0  6  1     TAATPFVF         PEPLIST 0.0069370    9.788 0.094110   22.216 18061.34
+   1 HLA-B*08:01       KAEDRFSM KAEDRF-SM  0  0  0  6  1     KAEDRFSM         PEPLIST 0.0823160    1.939 0.194008    5.902  6128.19 <= WB
 ---------------------------------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-B*08:01. Number of high binders 3. Number of weak binders 0. Number of peptides 3
+Protein PEPLIST. Allele HLA-B*08:01. Number of high binders 1. Number of weak binders 1. Number of peptides 6
 
 -----------------------------------------------------------------------------------

@@ -46,13 +46,14 @@ Save all tools to a folder used for the feature calculation "--ProgramDir"
 ## IMPROVE TME excluded
 
 PrioScore: Priority score from Mupexi: https://services.healthtech.dtu.dk/services/MuPeXI-1.1/
+
 CelPrev: Obtained from PyClone: https://github.com/Roth-Lab/pyclone
 
 ## IMPROVE TME included (RNA sequencing data is needed)
 
 CYT: Geometric mean of GZMA and PRF1 
 
-Monocytes and Blianges: From MCP-Counter 
+MCPmean: Mean score of the 10 cell populations estimated from MCP-Counter 
 
 
   
@@ -61,7 +62,7 @@ You can predit with three diffrent versions:
   1. Simple: All features from simple model and addition of NetMHCExp, Expression and Foreginess score 
   2. TME excluded: All features from simple model with addition of priority score and cellular prevelance
   3. TME included: All features from TME excluded including RNA feature:
-    CYT (geometirc mean of GZMA and PRF1) and monocytes, and Blinages gained from MCP-counter. 
+    CYT (geometirc mean of GZMA and PRF1) and MCP-mean gained from MCP-counter. 
   
 # Usage
 

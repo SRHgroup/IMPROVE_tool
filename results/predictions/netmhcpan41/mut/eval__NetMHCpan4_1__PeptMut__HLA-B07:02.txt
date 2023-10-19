@@ -1,8 +1,8 @@
 # /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/bin/netMHCpan -f ./results/predictions/netmhcpan41/mut/tempPept.txt -p -BA -a HLA-B07:02
-# Wed Oct 11 12:10:17 2023
+# Thu Oct 19 11:36:05 2023
 # User: annieborch
 # PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
-# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
+# Host: Darwin Annies-MacBook-Pro.local 22.6.0 x86_64
 # -f       ./results/predictions/netmhcpan41/mut/tempPept.txt File name with input
 # -p       1                    Use peptide input
 # -BA      1                    Include Binding affinity prediction
@@ -36,7 +36,7 @@
 
 # NetMHCpan version 4.1b
 
-# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanKOItmu
+# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanGjgqAb
 # Input is in PEPTIDE format
 
 # Make both EL and BA predictions
@@ -48,13 +48,19 @@ HLA-B07:02 : Distance to training data  0.000 (using nearest neighbor HLA-B07:02
 ---------------------------------------------------------------------------------------------------------------------------
  Pos         MHC        Peptide      Core Of Gp Gl Ip Il        Icore        Identity  Score_EL %Rank_EL Score_BA %Rank_BA  Aff(nM) BindLevel
 ---------------------------------------------------------------------------------------------------------------------------
-   1 HLA-B*07:02     IWARPGKAEL IARPGKAEL  0  1  1  0  0   IWARPGKAEL         PEPLIST 0.1983630    0.922 0.348857    1.354  1147.36 <= WB
-   1 HLA-B*07:02    RRPRRPLSTLP RPRRPLSTL  0  1  1  0  0   RRPRRPLSTL         PEPLIST 0.6890830    0.228 0.686315    0.112    29.78 <= SB
-   1 HLA-B*07:02       TPIRTETL TPI-RTETL  0  0  0  3  1     TPIRTETL         PEPLIST 0.6273480    0.271 0.410106    0.917   591.42 <= SB
-   1 HLA-B*07:02     TARAGAGRAV TARAGGRAV  0  5  1  0  0   TARAGAGRAV         PEPLIST 0.0384490    2.526 0.362281    1.232   992.25
-   1 HLA-B*07:02      NPKEATEAV NPKEATEAV  0  0  0  0  0    NPKEATEAV         PEPLIST 0.6070370    0.284 0.475540    0.606   291.35 <= SB
+   1 HLA-B*07:02    KAQPVTQATSF KPVTQATSF  0  1  2  0  0  KAQPVTQATSF         PEPLIST 0.3428310    0.600 0.331177    1.530  1389.25 <= WB
+   1 HLA-B*07:02      LPGPALRGL LPGPALRGL  0  0  0  0  0    LPGPALRGL         PEPLIST 0.8035060    0.137 0.604046    0.234    72.54 <= SB
+   1 HLA-B*07:02      KPETLVKDV KPETLVKDV  0  0  0  0  0    KPETLVKDV         PEPLIST 0.0957520    1.492 0.246186    2.728  3484.57 <= WB
+   1 HLA-B*07:02      AAAPVWRAF AAAPVWRAF  0  0  0  0  0    AAAPVWRAF         PEPLIST 0.2664770    0.757 0.406134    0.940   617.39 <= WB
+   1 HLA-B*07:02     MAPLSPGATL MPLSPGATL  0  1  1  0  0   MAPLSPGATL         PEPLIST 0.8876550    0.077 0.722483    0.071    20.14 <= SB
+   1 HLA-B*07:02      LPFIPEVAS LPFIPEVAS  0  0  0  0  0    LPFIPEVAS         PEPLIST 0.0311590    2.845 0.203324    3.797  5540.60
+   1 HLA-B*07:02      LLFERPHTM LLFERPHTM  0  0  0  0  0    LLFERPHTM         PEPLIST 0.0844600    1.600 0.183101    4.534  6895.79 <= WB
+   1 HLA-B*07:02    VPNLWDTPPLL VPNDTPPLL  0  3  2  0  0  VPNLWDTPPLL         PEPLIST 0.3301440    0.625 0.391438    1.027   723.79 <= WB
+   1 HLA-B*07:02     MAYREEVLAL MAREEVLAL  0  2  1  0  0   MAYREEVLAL         PEPLIST 0.0744740    1.743 0.350800    1.333  1123.49 <= WB
+   1 HLA-B*07:02      LSAASSSSL LSAASSSSL  0  0  0  0  0    LSAASSSSL         PEPLIST 0.0999190    1.456 0.393072    1.017   711.11 <= WB
+   1 HLA-B*07:02      RAAARYTPL RAAARYTPL  0  0  0  0  0    RAAARYTPL         PEPLIST 0.5720480    0.311 0.757702    0.044    13.76 <= SB
 ---------------------------------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-B*07:02. Number of high binders 3. Number of weak binders 1. Number of peptides 5
+Protein PEPLIST. Allele HLA-B*07:02. Number of high binders 3. Number of weak binders 7. Number of peptides 11
 
 -----------------------------------------------------------------------------------

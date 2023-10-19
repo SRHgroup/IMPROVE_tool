@@ -10,4 +10,5 @@
 # Gfeller et al. Predictions of immunogenicity reveal potent SARS-Cov-2 CD8 T-cell epitopes, BioRxiv (2022).
 ####################
 Peptide	%Rank_bestAllele	Score_bestAllele	%RankBinding_bestAllele	BestAllele	%Rank_B5101	Score_B5101	%RankBinding_B5101
-QSSPLPQSPQV	15.535	0.002569	4.954	B5101	15.535	0.002569	4.954
+SPQVLQQLV	0.449	0.059775	0.313	B5101	0.449	0.059775	0.313
+LPLKLQSEV	0.061	0.161087	0.015	B5101	0.061	0.161087	0.015

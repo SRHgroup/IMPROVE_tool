@@ -1,8 +1,8 @@
 # /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/bin/netMHCpan -f ./results/predictions/netmhcpan41/wt/tempPept.txt -p -BA -a HLA-C07:02
-# Wed Oct 11 12:10:24 2023
+# Thu Oct 19 11:36:13 2023
 # User: annieborch
 # PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
-# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
+# Host: Darwin Annies-MacBook-Pro.local 22.6.0 x86_64
 # -f       ./results/predictions/netmhcpan41/wt/tempPept.txt File name with input
 # -p       1                    Use peptide input
 # -BA      1                    Include Binding affinity prediction
@@ -36,7 +36,7 @@
 
 # NetMHCpan version 4.1b
 
-# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpand1pAaQ
+# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanQRLdX5
 # Input is in PEPTIDE format
 
 # Make both EL and BA predictions
@@ -48,9 +48,12 @@ HLA-C07:02 : Distance to training data  0.000 (using nearest neighbor HLA-C07:02
 ---------------------------------------------------------------------------------------------------------------------------
  Pos         MHC        Peptide      Core Of Gp Gl Ip Il        Icore        Identity  Score_EL %Rank_EL Score_BA %Rank_BA  Aff(nM) BindLevel
 ---------------------------------------------------------------------------------------------------------------------------
-   1 HLA-C*07:02      ATWETGISM ATWETGISM  0  0  0  0  0    ATWETGISM         PEPLIST 0.0196120    1.948 0.171634    3.874  7806.69 <= WB
+   1 HLA-C*07:02      KHSTTLTNR KHSTTLTNR  0  0  0  0  0    KHSTTLTNR         PEPLIST 0.0013480    8.455 0.069196   19.116 23649.40
+   1 HLA-C*07:02      GHLLGRPLL GHLLGRPLL  0  0  0  0  0    GHLLGRPLL         PEPLIST 0.0215750    1.824 0.174605    3.726  7559.73 <= WB
+   1 HLA-C*07:02    MHGNEVVGREL MHEVVGREL  0  2  2  0  0  MHGNEVVGREL         PEPLIST 0.0008810   10.392 0.122565    7.553 13275.19
+   1 HLA-C*07:02      VYNEGTQAV VYNEGTQAV  0  0  0  0  0    VYNEGTQAV         PEPLIST 0.3200490    0.153 0.478622    0.145   281.80 <= SB
 ---------------------------------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-C*07:02. Number of high binders 0. Number of weak binders 1. Number of peptides 1
+Protein PEPLIST. Allele HLA-C*07:02. Number of high binders 1. Number of weak binders 1. Number of peptides 4
 
 -----------------------------------------------------------------------------------

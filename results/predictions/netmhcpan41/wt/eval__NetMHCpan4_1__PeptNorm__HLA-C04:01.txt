@@ -1,8 +1,8 @@
 # /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/bin/netMHCpan -f ./results/predictions/netmhcpan41/wt/tempPept.txt -p -BA -a HLA-C04:01
-# Wed Oct 11 12:10:24 2023
+# Thu Oct 19 11:36:13 2023
 # User: annieborch
 # PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
-# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
+# Host: Darwin Annies-MacBook-Pro.local 22.6.0 x86_64
 # -f       ./results/predictions/netmhcpan41/wt/tempPept.txt File name with input
 # -p       1                    Use peptide input
 # -BA      1                    Include Binding affinity prediction
@@ -36,7 +36,7 @@
 
 # NetMHCpan version 4.1b
 
-# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanjd6neJ
+# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanA2a1ht
 # Input is in PEPTIDE format
 
 # Make both EL and BA predictions
@@ -48,13 +48,12 @@ HLA-C04:01 : Distance to training data  0.000 (using nearest neighbor HLA-C04:01
 ---------------------------------------------------------------------------------------------------------------------------
  Pos         MHC        Peptide      Core Of Gp Gl Ip Il        Icore        Identity  Score_EL %Rank_EL Score_BA %Rank_BA  Aff(nM) BindLevel
 ---------------------------------------------------------------------------------------------------------------------------
-   1 HLA-C*04:01      VFMRPFNEV VFMRPFNEV  0  0  0  0  0    VFMRPFNEV         PEPLIST 0.0474760    1.150 0.151246    0.892  9733.51 <= WB
-   1 HLA-C*04:01     YFPQKFPLTS YFPQKPLTS  0  5  1  0  0   YFPQKFPLTS         PEPLIST 0.0017460   10.424 0.071351    9.254 23104.35
-   1 HLA-C*04:01      IFMDRGMIV IFMDRGMIV  0  0  0  0  0    IFMDRGMIV         PEPLIST 0.0336600    1.495 0.178953    0.489  7212.32 <= WB
    1 HLA-C*04:01      YLNFDDTVF YLNFDDTVF  0  0  0  0  0    YLNFDDTVF         PEPLIST 0.0501870    1.104 0.188135    0.401  6530.24 <= WB
-   1 HLA-C*04:01      LWDEEVARV LWDEEVARV  0  0  0  0  0    LWDEEVARV         PEPLIST 0.7409650    0.027 0.345375    0.045  1191.42 <= SB
+   1 HLA-C*04:01      VWDAVRLEV VWDAVRLEV  0  0  0  0  0    VWDAVRLEV         PEPLIST 0.7430970    0.027 0.408299    0.019   603.09 <= SB
+   1 HLA-C*04:01      SWPQLFLLL SWPQLFLLL  0  0  0  0  0    SWPQLFLLL         PEPLIST 0.1460890    0.426 0.203879    0.321  5507.43 <= SB
+   1 HLA-C*04:01     IQFDPGSSIL IFDPGSSIL  0  1  1  0  0   IQFDPGSSIL         PEPLIST 0.8101120    0.019 0.428380    0.016   485.32 <= SB
 ---------------------------------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-C*04:01. Number of high binders 1. Number of weak binders 3. Number of peptides 5
+Protein PEPLIST. Allele HLA-C*04:01. Number of high binders 3. Number of weak binders 1. Number of peptides 4
 
 -----------------------------------------------------------------------------------

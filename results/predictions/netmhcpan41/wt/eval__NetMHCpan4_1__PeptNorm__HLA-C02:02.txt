@@ -1,8 +1,8 @@
 # /Users/annieborch/Documents/programs/netMHCpan-4.1/Darwin_x86_64/bin/netMHCpan -f ./results/predictions/netmhcpan41/wt/tempPept.txt -p -BA -a HLA-C02:02
-# Wed Oct 11 12:10:23 2023
+# Thu Oct 19 11:36:12 2023
 # User: annieborch
 # PWD : /Users/annieborch/Documents/IMPROVE/IMPROVE_git/IMPROVE_tool
-# Host: Darwin annies-mbp.clients.net.dtu.dk 22.6.0 x86_64
+# Host: Darwin Annies-MacBook-Pro.local 22.6.0 x86_64
 # -f       ./results/predictions/netmhcpan41/wt/tempPept.txt File name with input
 # -p       1                    Use peptide input
 # -BA      1                    Include Binding affinity prediction
@@ -36,7 +36,7 @@
 
 # NetMHCpan version 4.1b
 
-# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanG06mrL
+# Tmpdir made /var/folders/89/15_5vc_x7mv6r5db5v5g2xz80000gn/T//netMHCpanvipO65
 # Input is in PEPTIDE format
 
 # Make both EL and BA predictions
@@ -48,14 +48,12 @@ HLA-C02:02 : Distance to training data  0.000 (using nearest neighbor HLA-C02:02
 ---------------------------------------------------------------------------------------------------------------------------
  Pos         MHC        Peptide      Core Of Gp Gl Ip Il        Icore        Identity  Score_EL %Rank_EL Score_BA %Rank_BA  Aff(nM) BindLevel
 ---------------------------------------------------------------------------------------------------------------------------
-   1 HLA-C*02:02      RAQPLTLSL RAQPLTLSL  0  0  0  0  0    RAQPLTLSL         PEPLIST 0.6264580    0.064 0.435700    0.302   448.36 <= SB
-   1 HLA-C*02:02      KSRETADLV KSRETADLV  0  0  0  0  0    KSRETADLV         PEPLIST 0.0086200    5.032 0.189121    3.741  6460.95
-   1 HLA-C*02:02      EVFDFGDTM EVFDFGDTM  0  0  0  0  0    EVFDFGDTM         PEPLIST 0.0817710    1.194 0.268862    1.603  2726.44 <= WB
-   1 HLA-C*02:02     EEKLKQLMQL EKLKQLMQL  0  1  1  0  0   EEKLKQLMQL         PEPLIST 0.0000600   36.000 0.022921   58.062 39017.98
-   1 HLA-C*02:02      LGDLLGTAL LGDLLGTAL  0  0  0  0  0    LGDLLGTAL         PEPLIST 0.0023010    9.335 0.100303   11.719 16890.76
-   1 HLA-C*02:02      SLNEAFAAL SLNEAFAAL  0  0  0  0  0    SLNEAFAAL         PEPLIST 0.0954870    1.054 0.350969    0.719  1121.44 <= WB
+   1 HLA-C*02:02      KMEQEMTRL KMEQEMTRL  0  0  0  0  0    KMEQEMTRL         PEPLIST 0.0043580    6.986 0.076798   17.182 21782.03
+   1 HLA-C*02:02      SSPSFYRAL SSPSFYRAL  0  0  0  0  0    SSPSFYRAL         PEPLIST 0.1256530    0.818 0.310571    1.066  1736.23 <= WB
+   1 HLA-C*02:02     FGDTMVHQAI FGDTVHQAI  0  4  1  0  0   FGDTMVHQAI         PEPLIST 0.0004110   18.794 0.145499    6.334 10357.97
+   1 HLA-C*02:02      RDLDQAHLL RDLDQAHLL  0  0  0  0  0    RDLDQAHLL         PEPLIST 0.0013790   11.697 0.038986   37.309 32792.60
 ---------------------------------------------------------------------------------------------------------------------------
 
-Protein PEPLIST. Allele HLA-C*02:02. Number of high binders 1. Number of weak binders 2. Number of peptides 6
+Protein PEPLIST. Allele HLA-C*02:02. Number of high binders 0. Number of weak binders 1. Number of peptides 4
 
 -----------------------------------------------------------------------------------
