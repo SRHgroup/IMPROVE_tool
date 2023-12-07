@@ -3,7 +3,7 @@
 A feature based random forest model to priotize neoepitopes. 
 This repository is bulid for tool usage. 
 Look at all scripts made for the paper at: 
-https://github.com/SRHgroup/IMPROVE_paper
+https://github.com/SRHgroup/IMPROVE_paper (will be made public upon acceptance)
 
 
 # Improve has two steps: 
