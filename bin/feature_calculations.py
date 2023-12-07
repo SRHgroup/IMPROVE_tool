@@ -2,7 +2,7 @@
 #!/usr/bin/env python3
 
 # run script
-#python3 bin/feature_calculations.py --file data/test_file_for_feature_calculation_small.tsv --dataset "testing" --ProgramDir "/Users/annieborch/Documents/programs/" --outfile "data/calculated_features_test.tsv" --TmpDir "/Users/annieborch/Documents/programs/"
+#python3 bin/feature_calculations.py --file data/test_file_for_feature_calculation.tsv --dataset "testing" --ProgramDir "/Users/annieborch/Documents/programs/" --outfile "data/calculated_features_test.tsv" --TmpDir "/Users/annieborch/Documents/programs/"
 
 
 # ----------
@@ -49,7 +49,6 @@ homeDir = '.'
 pd.set_option("display.max_columns",999)
 pd.set_option("display.max_rows",None)
 sns.set_context(context='talk',rc={"lines.linewidth": 2})
-
 
 df = pd.read_csv(os.path.join(homeDir,infile),sep='\t')
 # down sample for testrun 
