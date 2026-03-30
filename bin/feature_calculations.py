@@ -2,7 +2,7 @@
 #!/usr/bin/env python3
 
 # run script
-#python3 bin/feature_calculations.py --file data/test_file_for_feature_calculation.tsv --dataset "testing" --ProgramDir "/Users/annieborch/Documents/programs/" --outfile "data/calculated_features_test.tsv" --TmpDir "/Users/annieborch/Documents/programs/"
+# python3 /home/projects/SRHgroup/apps/IMPROVE_tool/bin/feature_calculations.py --file /home/projects/SRHgroup/apps/IMPROVE_tool/data/test_file_for_feature_calculation.tsv --dataset "testing" --ProgramDir "/home/projects/SRHgroup/apps/IMPROVE_tool/programs" --outfile "/home/projects/SRHgroup/apps/IMPROVE_tool/data/calculated_features_test.tsv" --TmpDir "/home/projects/SRHgroup/apps/IMPROVE_tool/programs"
 
 
 # ----------
@@ -16,14 +16,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-sys.path.append('bin/src')
+sys.path.append('/home/projects/SRHgroup/apps/IMPROVE_tool/bin/src')
 
 import multimerPatientTools
-import partitionTools
 import procTools
 import physiochemical_properties
 import kernelSim
-
 # append directories 
 
 # arg parse 
@@ -32,6 +30,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--file", "-i", type=str, required=True)
 parser.add_argument("--outfile", "-o", type=str, required=True)
 parser.add_argument("--dataset", "-d", type=str, required=True)
+parser.add_argument("--PredDir", "-r", type=str, required=True)
 parser.add_argument("--ProgramDir", "-p", type=str, required=True)
 parser.add_argument("--TmpDir", "-t", type=str, required=True)
 args = parser.parse_args()
@@ -41,10 +40,14 @@ args = parser.parse_args()
 infile = args.file
 dataset_name = args.dataset
 output_file = args.outfile
+PredictionDirectory = args.PredDir
 ProgramDirectory = args.ProgramDir
 TemptDirectory = args.TmpDir
 
+
+
 homeDir = '.'
+print(homeDir)
 
 pd.set_option("display.max_columns",999)
 pd.set_option("display.max_rows",None)
@@ -69,7 +72,8 @@ dfSel['Patient'] = 1
 
 
 importlib.reload(multimerPatientTools)
-dfMerge = multimerPatientTools.runFeatureGeneration_NetMHCpan_stab_prime_molecular(dfSel,os.path.join(homeDir,'results','predictions'),dataSet=dataset_name,utilsDir = ProgramDirectory,tmpDir = TemptDirectory,runPred=True,plot=False,clean=True)
+#predDir= #os.path.join(homeDir,'results','predictions')
+dfMerge = multimerPatientTools.runFeatureGeneration_NetMHCpan_stab_prime_molecular(dfSel,predDir = PredictionDirectory,dataSet=dataset_name,utilsDir = ProgramDirectory,tmpDir = TemptDirectory,runPred=True,plot=False,clean=False)
 
 
 

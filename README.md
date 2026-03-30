@@ -78,5 +78,11 @@ python3 bin/Predict_immunogenicity.py --file data/calculated_features_test.tsv -
 
 python3 bin/Predict_immunogenicity.py --file data/calculated_features_test.tsv --model Simple  --outfile "output_prediction_simple.tsv" 
   
-  
+
+Predict tools with retrained models with annaconda 3: 
+----------------------
+anaconda3/2024.06-1
+models = models retrain with anaconda3
+
+The models are retrained with a newer pandas enviroment and then run "Predict_immunogenicity_CLEAN_retrain.py" instead 
 
